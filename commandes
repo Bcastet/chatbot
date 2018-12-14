@@ -1,3 +1,10 @@
+Pour installer le bot :
+1) pip install rasa_nlu
+2) pip install rasa_core
+3) pip install sklearn-crfsuite
+4) pip install tensorflow
+
+
 1) python -m rasa_core.train -d domain.yml -s Stories.md -o models/dialogue
 2) python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 3) python -m rasa_core.run -d models/dialogue -u models/current/nlu

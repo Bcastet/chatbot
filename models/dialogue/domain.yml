@@ -66,6 +66,6 @@ templates:
   utter_ressources_pedagogiques:
   - text: 'Connectez vous sur votre ENT, puis cliquez sur l''onglet : Ressources pédagogiques'
   utter_salles:
-  - text: Vous avez un plan de l'université de Bordeaux sur ...
+  - text: Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html
   utter_salutation:
   - text: Bonjour, que puis-je faire pour vous ?

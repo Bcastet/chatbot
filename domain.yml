@@ -37,7 +37,7 @@ templates:
   - text: "Pour voir votre emploi du temps, connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp"
 
   utter_salles:
-  - text: "Vous avez un plan de l'université de Bordeaux sur ..."
+  - text: "Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html"
 
   utter_professeurs:
   - text: "Vos professeurs sont listés sur vos emplois du temps"

@@ -1,5 +1,5 @@
 {
-    "trained_at": "20181214-162512", 
+    "trained_at": "20181214-163450", 
     "pipeline": [
         {
             "name": "tokenizer_whitespace", 

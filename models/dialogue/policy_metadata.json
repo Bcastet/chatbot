@@ -8,7 +8,7 @@
   "python": "2.7.13", 
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
   "rasa_core": "0.12.3", 
-  "trained_at": "20181214-162508", 
+  "trained_at": "20181214-163446", 
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy", 
     "rasa_core.policies.fallback.FallbackPolicy", 

@@ -9,4 +9,4 @@
 - Je ne sais pas quand est-ce que j'ai cours
 
 ## intent:salles
--Ou est le batiment B16?
+- Ou est le batiment B16?
