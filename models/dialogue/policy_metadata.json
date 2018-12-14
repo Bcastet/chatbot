@@ -1,0 +1,29 @@
+{
+  "max_histories": [
+    5, 
+    null, 
+    5, 
+    2
+  ], 
+  "python": "2.7.13", 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "rasa_core": "0.12.2", 
+  "trained_at": "20181130-161004", 
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy", 
+    "rasa_core.policies.fallback.FallbackPolicy", 
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.form_policy.FormPolicy"
+  ], 
+  "action_fingerprints": {
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "utter_happy": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": []
+    }
+  }
+}
