@@ -1,16 +1,12 @@
 ## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+- bonjour
+- salut
+- bonsoir
 
 ## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+- au revoir
+- merci
+- à bientôt
 
 ## intent:mood_affirm
 - yes

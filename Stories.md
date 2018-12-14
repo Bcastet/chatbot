@@ -26,3 +26,9 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## test
+* greet
+  - utter_greet
+* goodbye
+  - utter_goodbye

@@ -2,43 +2,27 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "hey", 
+        "text": "bonjour", 
         "intent": "greet"
       }, 
       {
-        "text": "hello", 
+        "text": "salut", 
         "intent": "greet"
       }, 
       {
-        "text": "hi", 
+        "text": "bonsoir", 
         "intent": "greet"
       }, 
       {
-        "text": "good morning", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "good evening", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "hey there", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "bye", 
+        "text": "au revoir", 
         "intent": "goodbye"
       }, 
       {
-        "text": "goodbye", 
+        "text": "merci", 
         "intent": "goodbye"
       }, 
       {
-        "text": "see you around", 
-        "intent": "goodbye"
-      }, 
-      {
-        "text": "see you later", 
+        "text": "à bientôt", 
         "intent": "goodbye"
       }, 
       {
