@@ -1,8 +1,11 @@
 (dp1
 I0
-Vgoodbye
+Vemploi_du_temps
 p2
 sI1
-Vgreet
+Vsalles
 p3
+sI2
+Vsalutation
+p4
 s.

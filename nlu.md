@@ -1,4 +1,7 @@
-
+## intent:salutation
+- Bonjour
+- Salut
+- Bonsoir
 
 ## intent:emploi_du_temps
 - Ou est mon emploi du temps?

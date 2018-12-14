@@ -2,32 +2,32 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "bonjour", 
-        "intent": "greet"
+        "text": "Bonjour", 
+        "intent": "salutation"
       }, 
       {
-        "text": "salut", 
-        "intent": "greet"
+        "text": "Salut", 
+        "intent": "salutation"
       }, 
       {
-        "text": "bonsoir", 
-        "intent": "greet"
+        "text": "Bonsoir", 
+        "intent": "salutation"
       }, 
       {
-        "text": "au revoir", 
-        "intent": "goodbye"
+        "text": "Ou est mon emploi du temps?", 
+        "intent": "emploi_du_temps"
       }, 
       {
-        "text": "merci", 
-        "intent": "goodbye"
+        "text": "J'ai quoi cet après midi?", 
+        "intent": "emploi_du_temps"
       }, 
       {
-        "text": "à bientôt", 
-        "intent": "goodbye"
+        "text": "Je ne sais pas quand est-ce que j'ai cours", 
+        "intent": "emploi_du_temps"
       }, 
       {
-        "text": "à la prochaine", 
-        "intent": "goodbye"
+        "text": "Ou est le batiment B16?", 
+        "intent": "salles"
       }
     ], 
     "entity_synonyms": [], 

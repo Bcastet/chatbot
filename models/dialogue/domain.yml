@@ -1,21 +1,71 @@
 actions:
 - utter_greet
+- utter_cheer_up
 - utter_did_that_help
+- utter_happy
 - utter_goodbye
+- utter_emploi_du_temps
+- utter_salles
+- utter_professeurs
+- utter_ressources_pedagogiques
+- utter_formations_internationales
+- utter_formations_enseignement_superieur
+- utter_assistance_ENT
+- utter_salutation
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- goodbye:
+- formations_post_BAC:
     use_entities: true
-- greet:
+- ressources_pedagogiques:
+    use_entities: true
+- formations_internationales:
+    use_entities: true
+- assistance_ENT:
+    use_entities: true
+- vie_associative:
+    use_entities: true
+- appartements_étudiants:
+    use_entities: true
+- bourses:
+    use_entities: true
+- salutation:
+    use_entities: true
+- journées_portes_ouvertes:
+    use_entities: true
+- sécurité_sociale:
+    use_entities: true
+- emploi_du_temps:
+    use_entities: true
+- professeurs:
+    use_entities: true
+- salles:
+    use_entities: true
+- formations_enseignement_superieur:
+    use_entities: true
+- parcoursup:
+    use_entities: true
+- ressources_administratives:
     use_entities: true
 slots: {}
 templates:
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_goodbye:
-  - text: Au revoir .
-  utter_greet:
+  utter_assistance_ENT:
+  - text: Quel est le problème?
+  utter_emploi_du_temps:
+  - text: Pour voir votre emploi du temps, connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp
+  utter_formations_enseignement_superieur:
+  - text: Vous pouvez retrouver toutes les formations proposées à l'Université de
+      Bordeaux sur la page https://www.u-bordeaux.fr/formation/catalogue?champ_disciplinaire=ECONOMIE+-+GESTION+-+AES&localisation=&discipline=&modalite_formation=&motcles=&type_diplome=Master
+  utter_formations_internationales:
+  - text: Pour plus d'informations sur les formations internationales, consultez la
+      page https://www.u-bordeaux.fr/International/Formations-internationales
+  utter_professeurs:
+  - text: Vos professeurs sont listés sur vos emplois du temps
+  utter_ressources_pedagogiques:
+  - text: 'Connectez vous sur votre ENT, puis cliquez sur l''onglet : Ressources pédagogiques'
+  utter_salles:
+  - text: Vous avez un plan de l'université de Bordeaux sur ...
+  utter_salutation:
   - text: Bonjour, que puis-je faire pour vous ?

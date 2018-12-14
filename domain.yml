@@ -1,5 +1,6 @@
 intents:
 
+  - salutation
   - emploi_du_temps
   - salles
   - professeurs
@@ -29,6 +30,7 @@ actions:
 - utter_formations_internationales
 - utter_formations_enseignement_superieur
 - utter_assistance_ENT
+- utter_salutation
 
 templates:
   utter_emploi_du_temps:
@@ -51,3 +53,6 @@ templates:
 
   utter_assistance_ENT:
   - text: "Quel est le problème?"
+
+  utter_salutation:
+  - text: "Bonjour, que puis-je faire pour vous ?"
