@@ -8,7 +8,7 @@
   "python": "2.7.13", 
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
   "rasa_core": "0.12.3", 
-  "trained_at": "20181214-152323", 
+  "trained_at": "20181214-160055", 
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy", 
     "rasa_core.policies.fallback.FallbackPolicy", 
@@ -16,13 +16,13 @@
     "rasa_core.policies.form_policy.FormPolicy"
   ], 
   "action_fingerprints": {
-    "utter_goodbye": {
-      "slots": []
-    }, 
-    "utter_happy": {
+    "utter_greet": {
       "slots": []
     }, 
     "action_listen": {
+      "slots": []
+    }, 
+    "utter_goodbye": {
       "slots": []
     }
   }

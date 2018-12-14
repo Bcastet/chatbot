@@ -5,16 +5,4 @@ p2
 sI1
 Vgreet
 p3
-sI2
-Vmood_affirm
-p4
-sI3
-Vmood_deny
-p5
-sI4
-Vmood_great
-p6
-sI5
-Vmood_unhappy
-p7
 s.

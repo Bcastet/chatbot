@@ -1,2 +1,2 @@
-language: en
+language: fr
 pipeline: tensorflow_embedding

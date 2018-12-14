@@ -1,5 +1,5 @@
 {
-    "trained_at": "20181214-152330", 
+    "trained_at": "20181214-160101", 
     "pipeline": [
         {
             "name": "tokenizer_whitespace", 
@@ -93,5 +93,5 @@
     ], 
     "rasa_nlu_version": "0.13.8", 
     "training_data": "training_data.json", 
-    "language": "en"
+    "language": "fr"
 }
