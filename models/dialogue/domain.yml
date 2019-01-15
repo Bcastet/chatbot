@@ -1,9 +1,5 @@
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
+- utter_salutation
 - utter_emploi_du_temps
 - utter_salles
 - utter_professeurs
@@ -11,7 +7,14 @@ actions:
 - utter_formations_internationales
 - utter_formations_enseignement_superieur
 - utter_assistance_ENT
-- utter_salutation
+- utter_formations_post_BAC
+- utter_parcoursup
+- utter_vie_associative
+- utter_journées_portes_ouvertes
+- utter_sécurité_sociale
+- utter_appartements_étudiants
+- utter_bourses
+- utter_ressources_administratives
 config:
   store_entities_as_slots: true
 entities: []
@@ -51,8 +54,16 @@ intents:
     use_entities: true
 slots: {}
 templates:
+  utter_appartements_étudiants:
+  - text: 'Les logements du Crous sont accessibles sur critères sociaux (Pour consulter
+      ces critères, suivre ici : ). Concernant les locations, vous pouvez trouver
+      des propositions de logements ici : '
   utter_assistance_ENT:
   - text: Quel est le problème?
+  utter_bourses:
+  - text: 'Pour tout renseignement concernant les bourses, voir ici : '
+  - text: 'Note : l''Université de Bordeaux n''est pas responsable des retards de
+      paiement.'
   utter_emploi_du_temps:
   - text: Pour voir votre emploi du temps, connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp
   utter_formations_enseignement_superieur:
@@ -61,11 +72,26 @@ templates:
   utter_formations_internationales:
   - text: Pour plus d'informations sur les formations internationales, consultez la
       page https://www.u-bordeaux.fr/International/Formations-internationales
+  utter_formations_post_BAC:
+  - text: 'L''ensemble des licences peut être trouvé ici : https://www.u-bordeaux.fr/formation/catalogue'
+  utter_journées_portes_ouvertes:
+  - text: 'Les journées portes ouvertes sont organisées le 18/01/2018. Vous pouvez
+      retrouver le planning ici : https://www.u-bordeaux.fr/Evenements/De-la-formation/Journee-portes-ouvertes'
+  utter_parcoursup:
+  - text: Toutes les informations concernant Parcoursup sont sur le site de l'Education
+      Nationale. Toutes nos formations post-bac sont répertoriées sur Parcoursup
   utter_professeurs:
   - text: Vos professeurs sont listés sur vos emplois du temps
+  utter_ressources_administratives:
+  - text: La bonne galère frère
   utter_ressources_pedagogiques:
   - text: 'Connectez vous sur votre ENT, puis cliquez sur l''onglet : Ressources pédagogiques'
   utter_salles:
   - text: Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html
   utter_salutation:
   - text: Bonjour, que puis-je faire pour vous ?
+  utter_sécurité_sociale:
+  - text: Même moi j'y comprends rien MDR, galère bien bro
+  utter_vie_associative:
+  - text: 'Concernant les associations sportives, toutes les informations peuvent
+      être trouvées ici : https://www.u-bordeaux.fr/Campus/Sport'

@@ -18,11 +18,8 @@ intents:
   - ressources_administratives
 
 actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
+
+- utter_salutation
 - utter_emploi_du_temps
 - utter_salles
 - utter_professeurs
@@ -30,7 +27,14 @@ actions:
 - utter_formations_internationales
 - utter_formations_enseignement_superieur
 - utter_assistance_ENT
-- utter_salutation
+- utter_formations_post_BAC
+- utter_parcoursup
+- utter_vie_associative
+- utter_journées_portes_ouvertes
+- utter_sécurité_sociale
+- utter_appartements_étudiants
+- utter_bourses
+- utter_ressources_administratives
 
 templates:
   utter_emploi_du_temps:
@@ -56,3 +60,28 @@ templates:
 
   utter_salutation:
   - text: "Bonjour, que puis-je faire pour vous ?"
+
+  utter_formations_post_BAC:
+  - text: "L'ensemble des licences peut être trouvé ici : https://www.u-bordeaux.fr/formation/catalogue"
+
+  utter_parcoursup:
+  - text: "Toutes les informations concernant Parcoursup sont sur le site de l'Education Nationale. Toutes nos formations post-bac sont répertoriées sur Parcoursup"
+
+  utter_vie_associative:
+  - text: "Concernant les associations sportives, toutes les informations peuvent être trouvées ici : https://www.u-bordeaux.fr/Campus/Sport"
+
+  utter_journées_portes_ouvertes:
+  - text: "Les journées portes ouvertes sont organisées le 18/01/2018. Vous pouvez retrouver le planning ici : https://www.u-bordeaux.fr/Evenements/De-la-formation/Journee-portes-ouvertes"
+
+  utter_sécurité_sociale:
+  - text: "Même moi j'y comprends rien MDR, galère bien bro"
+
+  utter_appartements_étudiants:
+  - text : "Les logements du Crous sont accessibles sur critères sociaux (Pour consulter ces critères, suivre ici : ). Concernant les locations, vous pouvez trouver des propositions de logements ici : "
+
+  utter_bourses:
+  - text : "Pour tout renseignement concernant les bourses, voir ici : "
+  - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement."
+
+  utter_ressources_administratives:
+  - text : "La bonne galère frère"
