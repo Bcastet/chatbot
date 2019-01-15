@@ -9,7 +9,7 @@ Pour installer le bot :
 2) python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 3) python -m rasa_core.run -d models/dialogue -u models/current/nlu
 
-
+chmod chatbot.sh
 Pour lancez le script tappez :
 chmod chatbot.sh
 vous pouvez maintenant utiliser ./chatbot.sh

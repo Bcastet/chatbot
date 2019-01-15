@@ -26,6 +26,10 @@
         "intent": "emploi_du_temps"
       }, 
       {
+        "text": "J'ai quoi ce matin?", 
+        "intent": "emploi_du_temps"
+      }, 
+      {
         "text": "Ou est le batiment B16?", 
         "intent": "salles"
       }
