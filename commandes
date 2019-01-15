@@ -9,7 +9,11 @@ Pour installer le bot :
 2) python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 3) python -m rasa_core.run -d models/dialogue -u models/current/nlu
 
-chmod chatbot.sh
+chmod 777 chatbot.sh pour ajouter les droits d'utilisation, de même pour test.sh
 Pour lancez le script tappez :
 chmod chatbot.sh
-vous pouvez maintenant utiliser ./chatbot.sh
+vous pouvez maintenant utiliser ./chatbot.sh , ./test.sh
+
+test.sh lance les test contenue dans e2e_stories.md
+
+Lancer les test de e2e_stories.md : python -m rasa_core.evaluate default --core models/dialogue --nlu models/current/nlu --stories e2e_stories.md --e2e
