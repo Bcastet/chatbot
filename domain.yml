@@ -1,5 +1,6 @@
 intents:
 
+  - default
   - salutation
   - emploi_du_temps
   - salles
@@ -20,6 +21,7 @@ intents:
 
 actions:
 
+- utter_default
 - utter_salutation
 - utter_emploi_du_temps
 - utter_salles
@@ -90,3 +92,6 @@ templates:
 
   utter_service_phase:
   - text : "Toute les informations convernant la cellule PHASE sont visible ici : https://www.u-bordeaux.fr/Universite/Organisation/Administration/Pole-Formation-insertion-professionnelle-et-vie-universitaire/Direction-de-la-vie-universitaire/Service-PHASE."
+
+  utter_default:
+  - text : "Je ne comprends pas votre requête."
