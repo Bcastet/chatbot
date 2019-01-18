@@ -1,5 +1,6 @@
 intents:
 
+  - default
   - salutation
   - emploi_du_temps
   - salles
@@ -16,9 +17,11 @@ intents:
   - appartements_étudiants
   - bourses
   - ressources_administratives
+  - service_phase
 
 actions:
 
+- utter_default
 - utter_salutation
 - utter_emploi_du_temps
 - utter_salles
@@ -35,53 +38,60 @@ actions:
 - utter_appartements_étudiants
 - utter_bourses
 - utter_ressources_administratives
+- utter_service_phase
 
 templates:
   utter_emploi_du_temps:
-  - text: "Pour voir votre emploi du temps, connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp"
+  - text: "Pour voir votre emploi du temps, connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp."
 
   utter_salles:
-  - text: "Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html"
+  - text: "Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html."
 
   utter_professeurs:
-  - text: "Vos professeurs sont listés sur vos emplois du temps, pour se faire connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp"
+  - text: "Vos professeurs sont listés sur vos emplois du temps, pour se faire connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp."
 
   utter_ressources_pedagogiques:
-  - text: "Connectez vous sur votre ENT, puis cliquez sur l'onglet : Ressources pédagogiques"
+  - text: "Connectez vous sur votre ENT, puis cliquez sur l'onglet : Ressources pédagogiques."
 
   utter_formations_internationales:
-  - text: "Pour plus d'informations sur les formations internationales, consultez la page https://www.u-bordeaux.fr/International/Formations-internationales"
+  - text: "Pour plus d'informations sur les formations internationales, consultez la page https://www.u-bordeaux.fr/International/Formations-internationales."
 
   utter_formations_enseignement_superieur:
-  - text: "Vous pouvez retrouver toutes les formations proposées à l'Université de Bordeaux sur la page https://www.u-bordeaux.fr/formation/catalogue?champ_disciplinaire=ECONOMIE+-+GESTION+-+AES&localisation=&discipline=&modalite_formation=&motcles=&type_diplome=Master"
+  - text: "Vous pouvez retrouver toutes les formations proposées à l'Université de Bordeaux sur la page https://www.u-bordeaux.fr/formation/catalogue?champ_disciplinaire=ECONOMIE+-+GESTION+-+AES&localisation=&discipline=&modalite_formation=&motcles=&type_diplome=Master."
 
   utter_assistance_ENT:
-  - text: "Pour toute information sur l ENT, vous pouvez regarder ici : https://www.u-bordeaux.fr/Campus/Services-numeriques/Identifiants-ENT2"
+  - text: "Pour toute information sur l ENT, vous pouvez regarder ici : https://www.u-bordeaux.fr/Campus/Services-numeriques/Identifiants-ENT2."
 
   utter_salutation:
   - text: "Bonjour, que puis-je faire pour vous ?"
 
   utter_formations_post_BAC:
-  - text: "L'ensemble des licences peut être trouvé ici : https://www.u-bordeaux.fr/formation/catalogue"
+  - text: "L'ensemble des licences peut être trouvé ici : https://www.u-bordeaux.fr/formation/catalogue."
 
   utter_parcoursup:
-  - text: "Toutes les informations concernant Parcoursup sont sur le site de l'Education Nationale. Toutes nos formations post-bac sont répertoriées sur Parcoursup"
+  - text: "Toutes les informations concernant Parcoursup sont sur le site de l'Education Nationale. Toutes nos formations post-bac sont répertoriées sur https://www.parcoursup.fr/."
 
   utter_vie_associative:
-  - text: "Concernant les associations sportives, toutes les informations peuvent être trouvées ici : https://www.u-bordeaux.fr/Campus/Sport"
+  - text: "Concernant les associations sportives, toutes les informations peuvent être trouvées ici : https://www.u-bordeaux.fr/Campus/Sport."
 
   utter_journées_portes_ouvertes:
-  - text: "Les journées portes ouvertes sont organisées le 18/01/2018. Vous pouvez retrouver le planning ici : https://www.u-bordeaux.fr/Evenements/De-la-formation/Journee-portes-ouvertes"
+  - text: "Les journées portes ouvertes sont organisées le 18/01/2018. Vous pouvez retrouver le planning ici : https://www.u-bordeaux.fr/Evenements/De-la-formation/Journee-portes-ouvertes."
 
   utter_sécurité_sociale:
-  - text: "Vous pouvez retrouver sur ce lien des informations sur la sécurité social étudiante : https://www.u-bordeaux.fr/Campus/Vie-pratique/Securite-sociale-et-mutuelle2"
+  - text: "Vous pouvez retrouver sur ce lien des informations sur la sécurité social étudiante : https://www.u-bordeaux.fr/Campus/Vie-pratique/Securite-sociale-et-mutuelle2."
 
   utter_appartements_étudiants:
   - text : "Les logements du Crous sont accessibles sur critères sociaux (Pour consulter ces critères, suivre ici : http://www.crous-bordeaux.fr/logements/)."
 
   utter_bourses:
-  - text : "Pour tout renseignement concernant les bourses, voir ici : http://www.crous-bordeaux.fr/bourses/"
-  - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement. Pour plus d'informations vous pouvez vous rendre sur : http://www.crous-bordeaux.fr/bourses/"
+  - text : "Pour tout renseignement concernant les bourses, voir ici : http://www.crous-bordeaux.fr/bourses/."
+  - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement. Pour plus d'informations vous pouvez vous rendre sur : http://www.crous-bordeaux.fr/bourses/."
 
   utter_ressources_administratives:
-  - text : "Pour toute information administrative, il est conseillé de se rendre au Guichet Unique dans le batiment A22, voici une carte du campus :https://cartographie.u-bordeaux.fr/TPG.html"
+  - text : "Pour toute information administrative, il est conseillé de se rendre au Guichet Unique dans le batiment A22, voici une carte du campus :https://cartographie.u-bordeaux.fr/TPG.html."
+
+  utter_service_phase:
+  - text : "Toute les informations convernant la cellule PHASE sont visible ici : https://www.u-bordeaux.fr/Universite/Organisation/Administration/Pole-Formation-insertion-professionnelle-et-vie-universitaire/Direction-de-la-vie-universitaire/Service-PHASE."
+
+  utter_default:
+  - text : "Je ne comprends pas votre requête."
