@@ -44,7 +44,7 @@ templates:
   - text: "Vous avez un plan de l'université de Bordeaux sur https://cartographie.u-bordeaux.fr/TPG.html"
 
   utter_professeurs:
-  - text: "Vos professeurs sont listés sur vos emplois du temps"
+  - text: "Vos professeurs sont listés sur vos emplois du temps, pour se faire connectez vous à https://ent.u-bordeaux.fr/uPortal/f/cursus-lo/p/b1EDT.u37l1n313/max/render.uP?pCp"
 
   utter_ressources_pedagogiques:
   - text: "Connectez vous sur votre ENT, puis cliquez sur l'onglet : Ressources pédagogiques"
@@ -80,8 +80,8 @@ templates:
   - text : "Les logements du Crous sont accessibles sur critères sociaux (Pour consulter ces critères, suivre ici : ). Concernant les locations, vous pouvez trouver des propositions de logements ici : "
 
   utter_bourses:
-  - text : "Pour tout renseignement concernant les bourses, voir ici : "
-  - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement."
+  - text : "Pour tout renseignement concernant les bourses, voir ici : http://www.crous-bordeaux.fr/bourses/"
+  - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement. Pour plus d'informations vous pouvez vous rendre sur : http://www.crous-bordeaux.fr/bourses/"
 
   utter_ressources_administratives:
   - text : "La bonne galère frère"
