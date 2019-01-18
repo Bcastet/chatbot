@@ -42,9 +42,12 @@ sI13
 Vsalutation
 p15
 sI14
-Vsécurité_sociale
+Vservice_phase
 p16
 sI15
-Vvie_associative
+Vsécurité_sociale
 p17
+sI16
+Vvie_associative
+p18
 s.

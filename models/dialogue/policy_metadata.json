@@ -8,7 +8,7 @@
   "python": "2.7.13", 
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
   "rasa_core": "0.12.2", 
-  "trained_at": "20190115-141917", 
+  "trained_at": "20190118-142346", 
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy", 
     "rasa_core.policies.fallback.FallbackPolicy", 
@@ -19,7 +19,7 @@
     "utter_formations_post_BAC": {
       "slots": []
     }, 
-    "utter_bourses": {
+    "utter_ressources_administratives": {
       "slots": []
     }, 
     "utter_s\u00e9curit\u00e9_sociale": {
@@ -37,7 +37,7 @@
     "utter_parcoursup": {
       "slots": []
     }, 
-    "utter_salutation": {
+    "utter_ressources_pedagogiques": {
       "slots": []
     }, 
     "utter_formations_internationales": {
@@ -52,10 +52,10 @@
     "utter_appartements_\u00e9tudiants": {
       "slots": []
     }, 
-    "utter_ressources_pedagogiques": {
+    "utter_salutation": {
       "slots": []
     }, 
-    "utter_ressources_administratives": {
+    "utter_bourses": {
       "slots": []
     }, 
     "utter_vie_associative": {

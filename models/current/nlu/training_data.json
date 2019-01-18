@@ -2,15 +2,15 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "Bonjour", 
+        "text": "Bonjour.", 
         "intent": "salutation"
       }, 
       {
-        "text": "Salut", 
+        "text": "Salut.", 
         "intent": "salutation"
       }, 
       {
-        "text": "Bonsoir", 
+        "text": "Bonsoir.", 
         "intent": "salutation"
       }, 
       {
@@ -22,7 +22,7 @@
         "intent": "emploi_du_temps"
       }, 
       {
-        "text": "Je ne sais pas quand est-ce que j ai cours", 
+        "text": "Je ne sais pas quand est-ce que j ai cours?", 
         "intent": "emploi_du_temps"
       }, 
       {
@@ -38,6 +38,14 @@
         "intent": "salles"
       }, 
       {
+        "text": "Ou est la batiment A22?", 
+        "intent": "salles"
+      }, 
+      {
+        "text": "Ou est le gymnase des Halles?", 
+        "intent": "salles"
+      }, 
+      {
         "text": "Quel est l email de Monsieur Dupond?", 
         "intent": "professeurs"
       }, 
@@ -46,7 +54,7 @@
         "intent": "professeurs"
       }, 
       {
-        "text": "Je cherche des livres à propos de mathématiques", 
+        "text": "Je cherche des livres à propos de mathématiques?", 
         "intent": "ressources_pedagogiques"
       }, 
       {
@@ -62,15 +70,15 @@
         "intent": "ressources_pedagogiques"
       }, 
       {
-        "text": "Je cherche des informations concernant les parcours internationaux", 
+        "text": "Je cherche des informations concernant les parcours internationaux?", 
         "intent": "formations_internationales"
       }, 
       {
-        "text": "Je voudrais partir au Canada", 
+        "text": "Je voudrais partir au Canada?", 
         "intent": "formations_internationales"
       }, 
       {
-        "text": "J aimerais faire un master à l étranger", 
+        "text": "J aimerais faire un master à l étranger?", 
         "intent": "formations_internationales"
       }, 
       {
@@ -82,11 +90,23 @@
         "intent": "formations_internationales"
       }, 
       {
+        "text": "Quelles sont les bourses pour les formations internationales?", 
+        "intent": "formations_internationales"
+      }, 
+      {
+        "text": "C est quoi le programme BCI?", 
+        "intent": "formations_internationales"
+      }, 
+      {
+        "text": "C est quoi la bourse IdEX?", 
+        "intent": "formations_internationales"
+      }, 
+      {
         "text": "Quels sont les masters disponibles à l Université de Bordeaux?", 
         "intent": "formations_enseignement_superieur"
       }, 
       {
-        "text": "Je voudrais faire un master", 
+        "text": "Je voudrais faire un master?", 
         "intent": "formations_enseignement_superieur"
       }, 
       {
@@ -98,6 +118,10 @@
         "intent": "formations_enseignement_superieur"
       }, 
       {
+        "text": "Comment marche Apoflux?", 
+        "intent": "formations_enseignement_superieur"
+      }, 
+      {
         "text": "Comment créer mon ENT?", 
         "intent": "assistance_ENT"
       }, 
@@ -106,7 +130,7 @@
         "intent": "assistance_ENT"
       }, 
       {
-        "text": "Je ne trouve pas mon groupe de td", 
+        "text": "Je ne trouve pas mon groupe de td?", 
         "intent": "assistance_ENT"
       }, 
       {
@@ -126,6 +150,10 @@
         "intent": "formations_post_BAC"
       }, 
       {
+        "text": "C est quoi CPBX?", 
+        "intent": "formations_post_BAC"
+      }, 
+      {
         "text": "Comment ça marche parcoursup?", 
         "intent": "parcoursup"
       }, 
@@ -134,7 +162,7 @@
         "intent": "parcoursup"
       }, 
       {
-        "text": "Je comprends pas comment marche Parcoursup", 
+        "text": "Je comprends pas comment marche Parcoursup?", 
         "intent": "parcoursup"
       }, 
       {
@@ -150,7 +178,11 @@
         "intent": "vie_associative"
       }, 
       {
-        "text": "Je cherche l association sportive de la fac", 
+        "text": "Je cherche l association sportive de la fac?", 
+        "intent": "vie_associative"
+      }, 
+      {
+        "text": "Sport étudiant", 
         "intent": "vie_associative"
       }, 
       {
@@ -162,7 +194,7 @@
         "intent": "journées_portes_ouvertes"
       }, 
       {
-        "text": "Je voudrais plus d informations pour la licence de mathématiques", 
+        "text": "Je voudrais plus d informations pour la licence de mathématiques?", 
         "intent": "journées_portes_ouvertes"
       }, 
       {
@@ -170,7 +202,7 @@
         "intent": "sécurité_sociale"
       }, 
       {
-        "text": "Je n arrive pas à souscrire à ma sécurité sociale", 
+        "text": "Je n arrive pas à souscrire à ma sécurité sociale?", 
         "intent": "sécurité_sociale"
       }, 
       {
@@ -202,12 +234,24 @@
         "intent": "bourses"
       }, 
       {
-        "text": "Je ne trouve pas mon certificat de scolarité", 
+        "text": "Comment obtenir une bourse?", 
+        "intent": "bourses"
+      }, 
+      {
+        "text": "Je ne trouve pas mon certificat de scolarité?", 
         "intent": "ressources_administratives"
       }, 
       {
         "text": "Comment obtenir une convention de stage?", 
         "intent": "ressources_administratives"
+      }, 
+      {
+        "text": "Je suis salarié et mon emploi du temps ne correspond pas avec mes horaires de travail", 
+        "intent": "service_phase"
+      }, 
+      {
+        "text": "Service PHASE", 
+        "intent": "service_phase"
       }
     ], 
     "entity_synonyms": [], 

@@ -12,6 +12,8 @@
 
 ## intent:salles
 - Ou est le batiment B16?
+- Ou est la batiment A22?
+- Ou est le gymnase des Halles?
 
 ## intent:professeurs
 - Quel est l email de Monsieur Dupond?
@@ -29,12 +31,16 @@
 - J aimerais faire un master à l étranger?
 - Comment faire un Erasmus?
 - Quelles sont les formations internationales?
+- Quelles sont les bourses pour les formations internationales?
+- C est quoi le programme BCI?
+- C est quoi la bourse IdEX?
 
 ## intent:formations_enseignement_superieur
 - Quels sont les masters disponibles à l Université de Bordeaux?
 - Je voudrais faire un master?
 - Je peux faire quoi après une licence?
 - Comment m inscrire en master?
+- Comment marche Apoflux?
 
 ## intent:assistance_ENT
 - Comment créer mon ENT?
@@ -42,10 +48,13 @@
 - Je ne trouve pas mon groupe de td?
 - Comment je vais sur mon ENT?
 
+
 ## intent:formations_post_BAC
 - Je peux faire quoi après le bac?
 - Vous avez une liste des formations?
 - Je peux faire quoi comme formation qui prend pas trop de temps?
+- C est quoi CPBX?
+
 
 ## intent:parcoursup
 - Comment ça marche parcoursup?
@@ -57,6 +66,7 @@
 - Il y a des associations à la fac?
 - Comment je peux faire du sport?
 - Je cherche l association sportive de la fac?
+- Sport étudiant
 
 ## intent:journées_portes_ouvertes
 - Vous faites des journées portes ouvertes?
@@ -79,6 +89,11 @@
 - J ai droit aux bourses?
 - Comment obtenir une bourse?
 
+
 ## intent:ressources_administratives
 - Je ne trouve pas mon certificat de scolarité?
 - Comment obtenir une convention de stage?
+
+## intent:service_phase
+- Je suis salarié et mon emploi du temps ne correspond pas avec mes horaires de travail
+- Service PHASE
