@@ -56,7 +56,7 @@ templates:
   - text: "Vous pouvez retrouver toutes les formations proposées à l'Université de Bordeaux sur la page https://www.u-bordeaux.fr/formation/catalogue?champ_disciplinaire=ECONOMIE+-+GESTION+-+AES&localisation=&discipline=&modalite_formation=&motcles=&type_diplome=Master"
 
   utter_assistance_ENT:
-  - text: "Quel est le problème?"
+  - text: "Pour toute information sur l ENT, vous pouvez regarder ici : https://www.u-bordeaux.fr/Campus/Services-numeriques/Identifiants-ENT2"
 
   utter_salutation:
   - text: "Bonjour, que puis-je faire pour vous ?"
@@ -74,14 +74,14 @@ templates:
   - text: "Les journées portes ouvertes sont organisées le 18/01/2018. Vous pouvez retrouver le planning ici : https://www.u-bordeaux.fr/Evenements/De-la-formation/Journee-portes-ouvertes"
 
   utter_sécurité_sociale:
-  - text: "Même moi j'y comprends rien MDR, galère bien bro"
+  - text: "Vous pouvez retrouver sur ce lien des informations sur la sécurité social étudiante : https://www.u-bordeaux.fr/Campus/Vie-pratique/Securite-sociale-et-mutuelle2"
 
   utter_appartements_étudiants:
-  - text : "Les logements du Crous sont accessibles sur critères sociaux (Pour consulter ces critères, suivre ici : ). Concernant les locations, vous pouvez trouver des propositions de logements ici : "
+  - text : "Les logements du Crous sont accessibles sur critères sociaux (Pour consulter ces critères, suivre ici : http://www.crous-bordeaux.fr/logements/)."
 
   utter_bourses:
   - text : "Pour tout renseignement concernant les bourses, voir ici : http://www.crous-bordeaux.fr/bourses/"
   - text : "Note : l'Université de Bordeaux n'est pas responsable des retards de paiement. Pour plus d'informations vous pouvez vous rendre sur : http://www.crous-bordeaux.fr/bourses/"
 
   utter_ressources_administratives:
-  - text : "La bonne galère frère"
+  - text : "Pour toute information administrative, il est conseillé de se rendre au Guichet Unique dans le batiment A22, voici une carte du campus :https://cartographie.u-bordeaux.fr/TPG.html"
