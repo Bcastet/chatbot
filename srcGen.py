@@ -12,12 +12,14 @@ def parseLine(htmlLine):
 	except Exception as e:
 		return ("False","False")
 
-	
-	return (splitted[0],htmlLine)
+	if splitted[1]!="\n":
+		return (splitted[0],htmlLine)
+	else:
+		return ("False","False")
 
 def parseFile():
 	items = {}
-	siteMap = open("siteMap.html","r",errors="ignore")
+	siteMap = open("siteMap.html","r")
 	 
 	lineChecker=0
 	for line in siteMap:
@@ -39,10 +41,20 @@ def parseFile():
 
 def createStories(items):
   storiesmd = open("Stories1.md","w+")
+  #storiesmd.write("## Portes_ouverte path\n")
+  #storiesmd.write("* Portes_ouverte\n")
+  #storiesmd.write("  - utter_Portes_ouverte\n")
+  #storiesmd.write("")
   for item in items.keys():
-  	storiesmd.write("## "+item.replace(" ","_")+" path\n")
-  	storiesmd.write("* "+item.replace(" ","_")+"\n")
-  	storiesmd.write("  - utter_"+item.replace(" ","_")+"\n\n")
+  	
+	  	rewrittenItem = item.replace(" ","_")
+	  	rewrittenItem = rewrittenItem.replace(",","")
+	  	rewrittenItem = rewrittenItem.replace(":","")
+	  	rewrittenItem = rewrittenItem.replace("\"","")
+	  	rewrittenItem = rewrittenItem.replace("/","")
+	  	storiesmd.write("## "+rewrittenItem+" path\n")
+	  	storiesmd.write("* "+rewrittenItem+"\n")
+	  	storiesmd.write("  - utter_"+rewrittenItem+"\n\n")
   storiesmd.close()
 
 def createNlu(items):
@@ -60,7 +72,9 @@ def createDomain(items):
 	domainyml.write("intents:\n\n")
 
 	for item in items.keys():
-		domainyml.write("  - "+item.replace(" ","_")+"\n")
+		rewrittenItem=item.replace(" ","_")
+		rewrittenItem=rewrittenItem.replace("!","")
+		domainyml.write("  - "+rewrittenItem+"\n")
 
 	domainyml.write("\n"+"actions:\n\n")
 
@@ -70,8 +84,11 @@ def createDomain(items):
 	domainyml.write("\ntemplates:\n")
 
 	for item in items.keys():
-		domainyml.write("- utter_"+item.replace(" ","_")+":\n")
-		domainyml.write("  - text: "+"\"Vous pouvez trouver les renseignements a propos de "+ item +"https://www.u-bordeaux.fr"+items[item]+"\"\n\n")
+		domainyml.write("- utter_"+(item.replace(" ","_")).replace("\"","")+":\n")
+		if items[item].startswith("/Actualites"):
+			domainyml.write("  - text: "+"\"Vous pouvez trouver l'article \\\""+ item.replace("\"","") +"\\\" ici : https://www.u-bordeaux.fr"+items[item]+"\"\n\n")
+		else:
+			domainyml.write("  - text: "+"\"Vous pouvez trouver les renseignements a propos de "+ item.replace("\"","") +" ici : https://www.u-bordeaux.fr"+items[item]+"\"\n\n")
 
 items = parseFile()
 createStories(items)
