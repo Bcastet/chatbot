@@ -1,0 +1,2 @@
+model_checkpoint_path: "/autofs/unityaccount/cremi/bcastet/chatbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/autofs/unityaccount/cremi/bcastet/chatbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

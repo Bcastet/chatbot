@@ -1,0 +1,30 @@
+Types de visiteurs : 
+	-étudiants
+		-emplois du temps
+		-salles
+		-professeurs
+		-ressources
+		-formations internationales
+		-formations de niveau supérieur
+		-assistance ENT
+	-lycéens
+		-formations
+		-questions FAQ
+		-vie associative
+		-journées portes ouvertes
+	/*-entrepreneurs
+		-équipes de recherche
+		-évènements de rencontre avec les étudiants
+		-contacts
+	-chercheurs
+		-congrès
+		-exposés ou présentations
+		-équipes de recherches
+		-appels à projet
+		-financements de recherche*/
+	-parents
+		-financier
+		-santé; sécu sociale étudiante
+		-appartements
+		-bourses
+		-administratif
