@@ -19,7 +19,7 @@ def parseLine(htmlLine):
 
 def parseFile():
 	items = {}
-	siteMap = open("siteMap.html","r")
+	siteMap = open("siteMap.html","r",errors="ignore")
 
 	lineChecker=0
 	for line in siteMap:
@@ -91,6 +91,7 @@ def createDomain(items):
 			domainyml.write("  - text: "+"\"Vous pouvez trouver les renseignements a propos de "+ item.replace("\"","") +" ici : https://www.u-bordeaux.fr"+items[item]+"\"\n\n")
 
 items = parseFile()
-createStories(items)
-createNlu(items)
-createDomain(items)
+print(items)
+#createStories(items)
+#createNlu(items)
+#createDomain(items)
