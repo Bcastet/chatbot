@@ -1,0 +1,65 @@
+﻿intents:
+  - Accueil_des_étudiants
+  - Social
+  - Vie_associative
+  - Citoyenneté_étudiante
+  - Culture
+  - Sport
+  - Les_bibliothèques
+  - Vie_pratique
+  - Emplois_étudiants
+  - Espace_santé_étudiants
+  - Boutique
+  - Services_numériques
+
+actions:
+- utter_Accueil_des_étudiants
+- utter_Social
+- utter_Vie_associative
+- utter_Citoyenneté_étudiante
+- utter_Culture
+- utter_Sport
+- utter_Les_bibliothèques
+- utter_Vie_pratique
+- utter_Emplois_étudiants
+- utter_Espace_santé_étudiants
+- utter_Boutique
+- utter_Services_numériques
+
+templates:
+  utter_Accueil_des_étudiants:
+    - "Les informations concernant le/la accueil des étudiants de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Accueil-des-etudiants     "
+
+  utter_Social:
+    - "Les informations concernant le/la social de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Social     "
+
+  utter_Vie_associative:
+    - "Les informations concernant le/la vie associative de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Vie-associative     "
+
+  utter_Citoyenneté_étudiante:
+    - "Les informations concernant le/la citoyenneté étudiante de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Citoyennete-etudiante     "
+
+  utter_Culture:
+    - "Les informations concernant le/la culture de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Culture     "
+
+  utter_Sport:
+    - "Les informations concernant le/la sport de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Sport     "
+
+  utter_Les_bibliothèques:
+    - "Les informations concernant le/la les bibliothèques de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Les-bibliotheques     "
+
+  utter_Vie_pratique:
+    - "Les informations concernant le/la vie pratique de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Vie-pratique     "
+
+  utter_Emplois_étudiants:
+    - "Les informations concernant le/la emplois étudiants de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Emplois-etudiants     "
+
+  utter_Espace_santé_étudiants:
+    - "Les informations concernant le/la espace santé étudiants de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Espace-sante-etudiants     "
+
+  utter_Boutique:
+    - "Les informations concernant le/la boutique de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Boutique     "
+
+  utter_Services_numériques:
+    - "Les informations concernant le/la services numériques de l'université sont à cette page : https://www.u-bordeaux.fr/Campus/Services-numeriques     "
+

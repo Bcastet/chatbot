@@ -1,0 +1,61 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_Accueil_des_\u00e9tudiants": {
+      "slots": []
+    },
+    "utter_Espace_sant\u00e9_\u00e9tudiants": {
+      "slots": []
+    },
+    "utter_Vie_associative": {
+      "slots": []
+    },
+    "utter_Services_num\u00e9riques": {
+      "slots": []
+    },
+    "utter_Culture": {
+      "slots": []
+    },
+    "utter_Social": {
+      "slots": []
+    },
+    "utter_Vie_pratique": {
+      "slots": []
+    },
+    "utter_Boutique": {
+      "slots": []
+    },
+    "utter_Citoyennet\u00e9_\u00e9tudiante": {
+      "slots": []
+    },
+    "utter_Emplois_\u00e9tudiants": {
+      "slots": []
+    },
+    "utter_Les_biblioth\u00e8ques": {
+      "slots": []
+    },
+    "utter_Sport": {
+      "slots": []
+    }
+  },
+  "python": "3.6.1",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190331-120544",
+  "rasa_core": "0.13.6",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
+}

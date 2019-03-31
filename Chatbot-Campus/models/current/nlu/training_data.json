@@ -1,0 +1,201 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Accueil_des_étudiants",
+        "text": "Je cherche des informations à propos de accueil des étudiants"
+      },
+      {
+        "intent": "Accueil_des_étudiants",
+        "text": "Comment est/sont géré.e.s le/les accueil des étudiants?"
+      },
+      {
+        "intent": "Accueil_des_étudiants",
+        "text": "Où puis-je trouver les informations concernant accueil des étudiants?"
+      },
+      {
+        "intent": "Accueil_des_étudiants",
+        "text": "Je cherche le portail accueil des étudiants"
+      },
+      {
+        "intent": "Social",
+        "text": "Je cherche des informations à propos de social"
+      },
+      {
+        "intent": "Social",
+        "text": "Comment est/sont géré.e.s le/les social?"
+      },
+      {
+        "intent": "Social",
+        "text": "Où puis-je trouver les informations concernant social?"
+      },
+      {
+        "intent": "Social",
+        "text": "Je cherche le portail social"
+      },
+      {
+        "intent": "Vie_associative",
+        "text": "Je cherche des informations à propos de vie associative"
+      },
+      {
+        "intent": "Vie_associative",
+        "text": "Comment est/sont géré.e.s le/les vie associative?"
+      },
+      {
+        "intent": "Vie_associative",
+        "text": "Où puis-je trouver les informations concernant vie associative?"
+      },
+      {
+        "intent": "Vie_associative",
+        "text": "Je cherche le portail vie associative"
+      },
+      {
+        "intent": "Citoyenneté_étudiante",
+        "text": "Je cherche des informations à propos de citoyenneté étudiante"
+      },
+      {
+        "intent": "Citoyenneté_étudiante",
+        "text": "Comment est/sont géré.e.s le/les citoyenneté étudiante?"
+      },
+      {
+        "intent": "Citoyenneté_étudiante",
+        "text": "Où puis-je trouver les informations concernant citoyenneté étudiante?"
+      },
+      {
+        "intent": "Citoyenneté_étudiante",
+        "text": "Je cherche le portail citoyenneté étudiante"
+      },
+      {
+        "intent": "Culture",
+        "text": "Je cherche des informations à propos de culture"
+      },
+      {
+        "intent": "Culture",
+        "text": "Comment est/sont géré.e.s le/les culture?"
+      },
+      {
+        "intent": "Culture",
+        "text": "Où puis-je trouver les informations concernant culture?"
+      },
+      {
+        "intent": "Culture",
+        "text": "Je cherche le portail culture"
+      },
+      {
+        "intent": "Sport",
+        "text": "Je cherche des informations à propos de sport"
+      },
+      {
+        "intent": "Sport",
+        "text": "Comment est/sont géré.e.s le/les sport?"
+      },
+      {
+        "intent": "Sport",
+        "text": "Où puis-je trouver les informations concernant sport?"
+      },
+      {
+        "intent": "Sport",
+        "text": "Je cherche le portail sport"
+      },
+      {
+        "intent": "Les_bibliothèques",
+        "text": "Je cherche des informations à propos de les bibliothèques"
+      },
+      {
+        "intent": "Les_bibliothèques",
+        "text": "Comment est/sont géré.e.s le/les les bibliothèques?"
+      },
+      {
+        "intent": "Les_bibliothèques",
+        "text": "Où puis-je trouver les informations concernant les bibliothèques?"
+      },
+      {
+        "intent": "Les_bibliothèques",
+        "text": "Je cherche le portail les bibliothèques"
+      },
+      {
+        "intent": "Vie_pratique",
+        "text": "Je cherche des informations à propos de vie pratique"
+      },
+      {
+        "intent": "Vie_pratique",
+        "text": "Comment est/sont géré.e.s le/les vie pratique?"
+      },
+      {
+        "intent": "Vie_pratique",
+        "text": "Où puis-je trouver les informations concernant vie pratique?"
+      },
+      {
+        "intent": "Vie_pratique",
+        "text": "Je cherche le portail vie pratique"
+      },
+      {
+        "intent": "Emplois_étudiants",
+        "text": "Je cherche des informations à propos de emplois étudiants"
+      },
+      {
+        "intent": "Emplois_étudiants",
+        "text": "Comment est/sont géré.e.s le/les emplois étudiants?"
+      },
+      {
+        "intent": "Emplois_étudiants",
+        "text": "Où puis-je trouver les informations concernant emplois étudiants?"
+      },
+      {
+        "intent": "Emplois_étudiants",
+        "text": "Je cherche le portail emplois étudiants"
+      },
+      {
+        "intent": "Espace_santé_étudiants",
+        "text": "Je cherche des informations à propos de espace santé étudiants"
+      },
+      {
+        "intent": "Espace_santé_étudiants",
+        "text": "Comment est/sont géré.e.s le/les espace santé étudiants?"
+      },
+      {
+        "intent": "Espace_santé_étudiants",
+        "text": "Où puis-je trouver les informations concernant espace santé étudiants?"
+      },
+      {
+        "intent": "Espace_santé_étudiants",
+        "text": "Je cherche le portail espace santé étudiants"
+      },
+      {
+        "intent": "Boutique",
+        "text": "Je cherche des informations à propos de boutique"
+      },
+      {
+        "intent": "Boutique",
+        "text": "Comment est/sont géré.e.s le/les boutique?"
+      },
+      {
+        "intent": "Boutique",
+        "text": "Où puis-je trouver les informations concernant boutique?"
+      },
+      {
+        "intent": "Boutique",
+        "text": "Je cherche le portail boutique"
+      },
+      {
+        "intent": "Services_numériques",
+        "text": "Je cherche des informations à propos de services numériques"
+      },
+      {
+        "intent": "Services_numériques",
+        "text": "Comment est/sont géré.e.s le/les services numériques?"
+      },
+      {
+        "intent": "Services_numériques",
+        "text": "Où puis-je trouver les informations concernant services numériques?"
+      },
+      {
+        "intent": "Services_numériques",
+        "text": "Je cherche le portail services numériques"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -1,45 +1,37 @@
-## intent : Ambition_internationale
-- Je cherche des articles a propos ambition internationale
-- Je cherche des informations a propos ambition internationale
-- ambition internationale
+﻿## intent:Ambition_internationale
+- Quelle est l'ambition internationale de l'Université de Bordeaux?
 
-## intent : Partenaires
-- Je cherche des articles a propos partenaires
-- Je cherche des informations a propos partenaires
-- partenaires
+## intent:Partenaires
+- Quels sont les partenaires pour partir à l'étranger?
+- Quels sont les partenaires pour faire une formation à l'international?
 
-## intent : Programmes_européens
-- Je cherche des articles a propos programmes europ�ens
-- Je cherche des informations a propos programmes europ�ens
-- programmes europ�ens
+## intent:Programmes_européens
+- Quels sont les programmes européens liés à l'Université de Bordeaux?
+- Quels sont les programmes européens?
+- Quels sont les programmes européens dans lesquels je peux m'engager?
 
-## intent : Laboratoires_internationaux
-- Je cherche des articles a propos laboratoires internationaux
-- Je cherche des informations a propos laboratoires internationaux
-- laboratoires internationaux
+## intent:Laboratoires_internationaux
+- Quels sont les laboratoires internationaux liés à l'Université de Bordeaux?
+- Quels sont les laboratoires internationaux?
+- Quels sont les laboratoires internationaux dans lesquels je peux m'engager?
 
-## intent : Formations_internationales_
-- Je cherche des articles a propos formations internationales 
-- Je cherche des informations a propos formations internationales 
-- formations internationales 
+## intent:Formations_internationales_
+- Quels sont les formations internationales  liés à l'Université de Bordeaux?
+- Quels sont les formations internationales ?
+- Quels sont les formations internationales  dans lesquels je peux m'engager?
 
-## intent : Contact
-- Je cherche des articles a propos contact
-- Je cherche des informations a propos contact
-- contact
+## intent:Contact
+- Quels sont les contact pour partir à l'étranger?
+- Quels sont les contact pour faire une formation à l'international?
 
-## intent : Bloc_Actualités_de_l'international
-- Je cherche des articles a propos bloc actualit�s de l'international
-- Je cherche des informations a propos bloc actualit�s de l'international
-- bloc actualit�s de l'international
+## intent:Bloc_Actualités_de_l'international
+- Quelle est l'actualité internationale de l'Université de Bordeaux?
 
-## intent : Venir_à_Bordeaux
-- Je cherche des articles a propos venir � bordeaux
-- Je cherche des informations a propos venir � bordeaux
-- venir � bordeaux
+## intent:Venir_à_Bordeaux
+- Comment venir à bordeaux?
+- Quelles sont les démarches à faire pour venir à bordeaux?
 
-## intent : Partir_à_l'étranger
-- Je cherche des articles a propos partir � l'�tranger
-- Je cherche des informations a propos partir � l'�tranger
-- partir � l'�tranger
+## intent:Partir_à_l'étranger
+- Comment partir à l'étranger?
+- Quelles sont les démarches à faire pour partir à l'étranger?
 

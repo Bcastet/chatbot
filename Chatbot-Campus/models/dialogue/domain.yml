@@ -1,0 +1,85 @@
+%YAML 1.1
+---
+actions:
+- utter_Accueil_des_étudiants
+- utter_Social
+- utter_Vie_associative
+- utter_Citoyenneté_étudiante
+- utter_Culture
+- utter_Sport
+- utter_Les_bibliothèques
+- utter_Vie_pratique
+- utter_Emplois_étudiants
+- utter_Espace_santé_étudiants
+- utter_Boutique
+- utter_Services_numériques
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- Accueil_des_étudiants:
+    use_entities: true
+- Social:
+    use_entities: true
+- Vie_associative:
+    use_entities: true
+- Citoyenneté_étudiante:
+    use_entities: true
+- Culture:
+    use_entities: true
+- Sport:
+    use_entities: true
+- Les_bibliothèques:
+    use_entities: true
+- Vie_pratique:
+    use_entities: true
+- Emplois_étudiants:
+    use_entities: true
+- Espace_santé_étudiants:
+    use_entities: true
+- Boutique:
+    use_entities: true
+- Services_numériques:
+    use_entities: true
+slots: {}
+templates:
+  utter_Accueil_des_étudiants:
+  - text: "Les informations concernant le/la accueil des étudiants de l'université\
+      \ sont à cette page : https://www.u-bordeaux.fr/Campus/Accueil-des-etudiants\
+      \     "
+  utter_Boutique:
+  - text: "Les informations concernant le/la boutique de l'université sont à cette\
+      \ page : https://www.u-bordeaux.fr/Campus/Boutique     "
+  utter_Citoyenneté_étudiante:
+  - text: "Les informations concernant le/la citoyenneté étudiante de l'université\
+      \ sont à cette page : https://www.u-bordeaux.fr/Campus/Citoyennete-etudiante\
+      \     "
+  utter_Culture:
+  - text: "Les informations concernant le/la culture de l'université sont à cette\
+      \ page : https://www.u-bordeaux.fr/Campus/Culture     "
+  utter_Emplois_étudiants:
+  - text: "Les informations concernant le/la emplois étudiants de l'université sont\
+      \ à cette page : https://www.u-bordeaux.fr/Campus/Emplois-etudiants     "
+  utter_Espace_santé_étudiants:
+  - text: "Les informations concernant le/la espace santé étudiants de l'université\
+      \ sont à cette page : https://www.u-bordeaux.fr/Campus/Espace-sante-etudiants\
+      \     "
+  utter_Les_bibliothèques:
+  - text: "Les informations concernant le/la les bibliothèques de l'université sont\
+      \ à cette page : https://www.u-bordeaux.fr/Campus/Les-bibliotheques     "
+  utter_Services_numériques:
+  - text: "Les informations concernant le/la services numériques de l'université sont\
+      \ à cette page : https://www.u-bordeaux.fr/Campus/Services-numeriques     "
+  utter_Social:
+  - text: "Les informations concernant le/la social de l'université sont à cette page\
+      \ : https://www.u-bordeaux.fr/Campus/Social     "
+  utter_Sport:
+  - text: "Les informations concernant le/la sport de l'université sont à cette page\
+      \ : https://www.u-bordeaux.fr/Campus/Sport     "
+  utter_Vie_associative:
+  - text: "Les informations concernant le/la vie associative de l'université sont\
+      \ à cette page : https://www.u-bordeaux.fr/Campus/Vie-associative     "
+  utter_Vie_pratique:
+  - text: "Les informations concernant le/la vie pratique de l'université sont à cette\
+      \ page : https://www.u-bordeaux.fr/Campus/Vie-pratique     "

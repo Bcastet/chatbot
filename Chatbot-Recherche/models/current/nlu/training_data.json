@@ -2,260 +2,188 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "Bonjour.", 
-        "intent": "salutation"
-      }, 
+        "intent": "Études_doctorales",
+        "text": "Doctorat à l'université de Bordeaux"
+      },
       {
-        "text": "Salut.", 
-        "intent": "salutation"
-      }, 
+        "intent": "Études_doctorales",
+        "text": "Je cherche des informations à propos de études doctorales"
+      },
       {
-        "text": "Bonsoir.", 
-        "intent": "salutation"
-      }, 
+        "intent": "Études_doctorales",
+        "text": "Comment est/sont géré.e.s le/les études doctorales?"
+      },
       {
-        "text": "Ou est mon emploi du temps?", 
-        "intent": "emploi_du_temps"
-      }, 
+        "intent": "Études_doctorales",
+        "text": "Où puis-je trouver les informations concernant études doctorales?"
+      },
       {
-        "text": "J ai quoi cet après midi?", 
-        "intent": "emploi_du_temps"
-      }, 
+        "intent": "Études_doctorales",
+        "text": "Je cherche le portail études doctorales"
+      },
       {
-        "text": "Je ne sais pas quand est-ce que j ai cours?", 
-        "intent": "emploi_du_temps"
-      }, 
+        "intent": "Habilitation_à_diriger_des_recherches",
+        "text": "Je cherche des informations à propos de habilitation à diriger des recherches"
+      },
       {
-        "text": "J ai quoi ce matin?", 
-        "intent": "emploi_du_temps"
-      }, 
+        "intent": "Habilitation_à_diriger_des_recherches",
+        "text": "Comment est/sont géré.e.s le/les habilitation à diriger des recherches?"
+      },
       {
-        "text": "Avec qui j ai cours tout à l heure?", 
-        "intent": "emploi_du_temps"
-      }, 
+        "intent": "Habilitation_à_diriger_des_recherches",
+        "text": "Où puis-je trouver les informations concernant habilitation à diriger des recherches?"
+      },
       {
-        "text": "Ou est le batiment B16?", 
-        "intent": "salles"
-      }, 
+        "intent": "Habilitation_à_diriger_des_recherches",
+        "text": "Je cherche le portail habilitation à diriger des recherches"
+      },
       {
-        "text": "Ou est la batiment A22?", 
-        "intent": "salles"
-      }, 
+        "intent": "Valorisation",
+        "text": "Je cherche des informations à propos de valorisation"
+      },
       {
-        "text": "Ou est le gymnase des Halles?", 
-        "intent": "salles"
-      }, 
+        "intent": "Valorisation",
+        "text": "Comment est/sont géré.e.s le/les valorisation?"
+      },
       {
-        "text": "Quel est l email de Monsieur Dupond?", 
-        "intent": "professeurs"
-      }, 
+        "intent": "Valorisation",
+        "text": "Où puis-je trouver les informations concernant valorisation?"
+      },
       {
-        "text": "Ou puis-je contacter Monsieur Raymond?", 
-        "intent": "professeurs"
-      }, 
+        "intent": "Valorisation",
+        "text": "Je cherche le portail valorisation"
+      },
       {
-        "text": "Je cherche des livres à propos de mathématiques?", 
-        "intent": "ressources_pedagogiques"
-      }, 
+        "intent": "Panorama_de_la_recherche",
+        "text": "Je cherche des informations à propos de panorama de la recherche"
+      },
       {
-        "text": "Comment accéder à Moodle?", 
-        "intent": "ressources_pedagogiques"
-      }, 
+        "intent": "Panorama_de_la_recherche",
+        "text": "Comment est/sont géré.e.s le/les panorama de la recherche?"
+      },
       {
-        "text": "C est quoi Moodle?", 
-        "intent": "ressources_pedagogiques"
-      }, 
+        "intent": "Panorama_de_la_recherche",
+        "text": "Où puis-je trouver les informations concernant panorama de la recherche?"
+      },
       {
-        "text": "J ai raté un cours comment je peux le rattraper?", 
-        "intent": "ressources_pedagogiques"
-      }, 
+        "intent": "Panorama_de_la_recherche",
+        "text": "Je cherche le portail panorama de la recherche"
+      },
       {
-        "text": "Je cherche des informations concernant les parcours internationaux?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Programmes_européens",
+        "text": "Je cherche des informations à propos de programmes européens"
+      },
       {
-        "text": "Je voudrais partir au Canada?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Programmes_européens",
+        "text": "Comment est/sont géré.e.s le/les programmes européens?"
+      },
       {
-        "text": "J aimerais faire un master à l étranger?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Programmes_européens",
+        "text": "Où puis-je trouver les informations concernant programmes européens?"
+      },
       {
-        "text": "Comment faire un Erasmus?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Programmes_européens",
+        "text": "Je cherche le portail programmes européens"
+      },
       {
-        "text": "Quelles sont les formations internationales?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Laboratoires_internationaux",
+        "text": "Je cherche des informations à propos de laboratoires internationaux"
+      },
       {
-        "text": "Quelles sont les bourses pour les formations internationales?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Laboratoires_internationaux",
+        "text": "Comment est/sont géré.e.s le/les laboratoires internationaux?"
+      },
       {
-        "text": "C est quoi le programme BCI?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Laboratoires_internationaux",
+        "text": "Où puis-je trouver les informations concernant laboratoires internationaux?"
+      },
       {
-        "text": "C est quoi la bourse IdEX?", 
-        "intent": "formations_internationales"
-      }, 
+        "intent": "Laboratoires_internationaux",
+        "text": "Je cherche le portail laboratoires internationaux"
+      },
       {
-        "text": "Quels sont les masters disponibles à l Université de Bordeaux?", 
-        "intent": "formations_enseignement_superieur"
-      }, 
+        "intent": "Intégration_des_chercheurs_internationaux",
+        "text": "Je cherche des informations à propos de intégration des chercheurs internationaux"
+      },
       {
-        "text": "Je voudrais faire un master?", 
-        "intent": "formations_enseignement_superieur"
-      }, 
+        "intent": "Intégration_des_chercheurs_internationaux",
+        "text": "Comment est/sont géré.e.s le/les intégration des chercheurs internationaux?"
+      },
       {
-        "text": "Je peux faire quoi après une licence?", 
-        "intent": "formations_enseignement_superieur"
-      }, 
+        "intent": "Intégration_des_chercheurs_internationaux",
+        "text": "Où puis-je trouver les informations concernant intégration des chercheurs internationaux?"
+      },
       {
-        "text": "Comment m inscrire en master?", 
-        "intent": "formations_enseignement_superieur"
-      }, 
+        "intent": "Intégration_des_chercheurs_internationaux",
+        "text": "Je cherche le portail intégration des chercheurs internationaux"
+      },
       {
-        "text": "Comment marche Apoflux?", 
-        "intent": "formations_enseignement_superieur"
-      }, 
+        "intent": "Intégrité_scientifique",
+        "text": "Je cherche des informations à propos de intégrité scientifique"
+      },
       {
-        "text": "Comment créer mon ENT?", 
-        "intent": "assistance_ENT"
-      }, 
+        "intent": "Intégrité_scientifique",
+        "text": "Comment est/sont géré.e.s le/les intégrité scientifique?"
+      },
       {
-        "text": "C est quoi l ENT?", 
-        "intent": "assistance_ENT"
-      }, 
+        "intent": "Intégrité_scientifique",
+        "text": "Où puis-je trouver les informations concernant intégrité scientifique?"
+      },
       {
-        "text": "Je ne trouve pas mon groupe de td?", 
-        "intent": "assistance_ENT"
-      }, 
+        "intent": "Intégrité_scientifique",
+        "text": "Je cherche le portail intégrité scientifique"
+      },
       {
-        "text": "Comment je vais sur mon ENT?", 
-        "intent": "assistance_ENT"
-      }, 
+        "intent": "Institut_d’études_avancées",
+        "text": "Je cherche des informations à propos de institut d’études avancées"
+      },
       {
-        "text": "Je peux faire quoi après le bac?", 
-        "intent": "formations_post_BAC"
-      }, 
+        "intent": "Institut_d’études_avancées",
+        "text": "Comment est/sont géré.e.s le/les institut d’études avancées?"
+      },
       {
-        "text": "Vous avez une liste des formations?", 
-        "intent": "formations_post_BAC"
-      }, 
+        "intent": "Institut_d’études_avancées",
+        "text": "Où puis-je trouver les informations concernant institut d’études avancées?"
+      },
       {
-        "text": "Je peux faire quoi comme formation qui prend pas trop de temps?", 
-        "intent": "formations_post_BAC"
-      }, 
+        "intent": "Institut_d’études_avancées",
+        "text": "Je cherche le portail institut d’études avancées"
+      },
       {
-        "text": "C est quoi CPBX?", 
-        "intent": "formations_post_BAC"
-      }, 
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Je cherche des informations à propos de initiative d'excellence de l'université de bordeaux"
+      },
       {
-        "text": "Comment ça marche parcoursup?", 
-        "intent": "parcoursup"
-      }, 
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Comment est/sont géré.e.s le/les initiative d'excellence de l'université de bordeaux?"
+      },
       {
-        "text": "Je suis interessé par la licence de mathématiques, comment je l ajoute sur Parcoursup?", 
-        "intent": "parcoursup"
-      }, 
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Où puis-je trouver les informations concernant initiative d'excellence de l'université de bordeaux?"
+      },
       {
-        "text": "Je comprends pas comment marche Parcoursup?", 
-        "intent": "parcoursup"
-      }, 
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Je cherche le portail initiative d'excellence de l'université de bordeaux"
+      },
       {
-        "text": "Est-ce que si je met une licence sur Parcoursup je suis sûr d être accepté?", 
-        "intent": "parcoursup"
-      }, 
+        "intent": "Collections_scientifiques",
+        "text": "Je cherche des informations à propos de collections scientifiques"
+      },
       {
-        "text": "Il y a des associations à la fac?", 
-        "intent": "vie_associative"
-      }, 
+        "intent": "Collections_scientifiques",
+        "text": "Comment est/sont géré.e.s le/les collections scientifiques?"
+      },
       {
-        "text": "Comment je peux faire du sport?", 
-        "intent": "vie_associative"
-      }, 
+        "intent": "Collections_scientifiques",
+        "text": "Où puis-je trouver les informations concernant collections scientifiques?"
+      },
       {
-        "text": "Je cherche l association sportive de la fac?", 
-        "intent": "vie_associative"
-      }, 
-      {
-        "text": "Sport étudiant", 
-        "intent": "vie_associative"
-      }, 
-      {
-        "text": "Vous faites des journées portes ouvertes?", 
-        "intent": "journées_portes_ouvertes"
-      }, 
-      {
-        "text": "Qu est ce qui est prévu pour les JPO?", 
-        "intent": "journées_portes_ouvertes"
-      }, 
-      {
-        "text": "Je voudrais plus d informations pour la licence de mathématiques?", 
-        "intent": "journées_portes_ouvertes"
-      }, 
-      {
-        "text": "C est quoi la sécurité sociale étudiante?", 
-        "intent": "sécurité_sociale"
-      }, 
-      {
-        "text": "Je n arrive pas à souscrire à ma sécurité sociale?", 
-        "intent": "sécurité_sociale"
-      }, 
-      {
-        "text": "C est grave si je ne suis pas assuré?", 
-        "intent": "sécurité_sociale"
-      }, 
-      {
-        "text": "Où je peux trouver des appartements étudiants?", 
-        "intent": "appartements_étudiants"
-      }, 
-      {
-        "text": "Comment je peux accéder aux logements du crous?", 
-        "intent": "appartements_étudiants"
-      }, 
-      {
-        "text": "C est quel prix un appartement étudiant?", 
-        "intent": "appartements_étudiants"
-      }, 
-      {
-        "text": "Mes bourses n ont pas encore été versées, c est normal?", 
-        "intent": "bourses"
-      }, 
-      {
-        "text": "Comment savoir si j ai droit aux bourses?", 
-        "intent": "bourses"
-      }, 
-      {
-        "text": "J ai droit aux bourses?", 
-        "intent": "bourses"
-      }, 
-      {
-        "text": "Comment obtenir une bourse?", 
-        "intent": "bourses"
-      }, 
-      {
-        "text": "Je ne trouve pas mon certificat de scolarité?", 
-        "intent": "ressources_administratives"
-      }, 
-      {
-        "text": "Comment obtenir une convention de stage?", 
-        "intent": "ressources_administratives"
-      }, 
-      {
-        "text": "Je suis salarié et mon emploi du temps ne correspond pas avec mes horaires de travail", 
-        "intent": "service_phase"
-      }, 
-      {
-        "text": "Service PHASE", 
-        "intent": "service_phase"
+        "intent": "Collections_scientifiques",
+        "text": "Je cherche le portail collections scientifiques"
       }
-    ], 
-    "entity_synonyms": [], 
-    "regex_features": [], 
-    "lookup_tables": []
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
   }
 }

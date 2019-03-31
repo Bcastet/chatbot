@@ -19,9 +19,9 @@ def parseLine(htmlLine):
 
 def parseFile():
 	items = {}
-	siteMap = open("siteMap.html","r")
+	siteMap = open("siteMap.html","r",errors="ignore")
 	categories=[]
-	realCategories=[]
+	realCategories={}
 	lineChecker=0
 	for line in siteMap:
 
@@ -31,14 +31,8 @@ def parseFile():
 			if tmp!=("False","False"):
 				if not(tmp[0].rsplit("/")[0] in categories):
 					categories.append(tmp[0].rsplit("/")[0])
-					realCategories.append(tmp[1])
-
+					realCategories[tmp[1]]=tmp[0]
 				items[tmp[1]]=tmp[0]
-
-
-
-
-
 		lineChecker+=1
 	print(realCategories)
 	return realCategories
@@ -51,8 +45,7 @@ def createStories(items):
   #storiesmd.write("* Portes_ouverte\n")
   #storiesmd.write("  - utter_Portes_ouverte\n")
   #storiesmd.write("")
-  for item in items:
-
+  for item in items.keys():
 
 	  	storiesmd.write("## "+item.replace(" ","_")+" path\n")
 	  	storiesmd.write("* "+item.replace(" ","_")+"\n")
@@ -62,37 +55,53 @@ def createStories(items):
 def createNlu(items):
 #### intent:emploi_du_temps
 ##- Ou est mon emploi du temps?
-	nlumd = open("nlu.md","w")
-	for item in items:
-		nlumd.write("## intent : "+item.replace(" ","_")+"\n")
-		nlumd.write("- "+"Je cherche des articles a propos "+item.replace("-"," ").lower()+"\n")
-		nlumd.write("- "+"Je cherche des informations a propos "+item.replace("-"," ").lower()+"\n")
-		nlumd.write("- "+item.replace("-"," ").lower()+"\n\n")
+	nlumd = open("nlu.md","w+")
+	for item in items.keys():
+		item=item.encode("latin1").decode()		
+		nlumd.write(("## intent:"+item.replace(" ","_")+"\n"))
+		nlumd.write("- "+"Je cherche des articles à propos "+item.replace("-"," ").lower()+"\n")
+		nlumd.write("- "+"Quelles sont les dernières informations à propos "+item.replace("-"," ").lower()+"?\n")
+		nlumd.write("- "+"Quelles sont les dernières actualités à propos "+item.replace("-"," ").lower()+"?\n")
+		nlumd.write("- "+"Je cherche les dernières nouvelles à propos "+item.replace("-"," ").lower()+"\n\n")
+
+	
 	nlumd.close()
+	nlumd = open("nlu.md","r")
+	filestr=nlumd.read()
+	nlumd.close()
+	nlumd = open("nlu.md","wb")
+	
+	nlumd.write(filestr.encode("utf-8-sig"))
+	
 
 
 def createDomain(items):
-	domainyml = open("domain.yml","w")
-	domainyml.write("intents:\n\n")
+	domainyml = open("domain.yml","w+")
+	domainyml.write("intents:\n")
 
-	for item in items:
-
+	for item in items.keys():
+		
 		domainyml.write("  - "+item.replace(" ","_")+"\n")
 
-	domainyml.write("\n"+"actions:\n\n")
+	domainyml.write("\n"+"actions:\n")
 
-	for item in items:
+	for item in items.keys():
+		
 		domainyml.write("- utter_"+item.replace(" ","_")+"\n")
 
 	domainyml.write("\ntemplates:\n")
 
-	for item in items:
-		domainyml.write("- utter_"+(item.replace(" ","_")).replace("\"","")+":\n")
-		domainyml.write("  - text: \"Quel article sur le sujet "+item.replace("-"," ")+" cherchez vous?\"\n")
+	for item in items.keys():
+		
+		domainyml.write("  utter_"+(item.replace(" ","_"))+":\n")
+		print(item)
+		towrite = "    - \"Toute l'actualitÃ© "+item.replace("D","d")+" se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category="+items[item]+"\"\n"
+		
+		domainyml.write(towrite)
 
 
 items = parseFile()
-
+createDomain(items)
 createStories(items)
 createNlu(items)
-createDomain(items)
+

@@ -1,71 +1,49 @@
 {
-  "max_histories": [
-    5, 
-    null, 
-    5, 
-    2
-  ], 
-  "python": "2.7.13", 
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
-  "rasa_core": "0.12.2", 
-  "trained_at": "20190215-142023", 
-  "policy_names": [
-    "rasa_core.policies.keras_policy.KerasPolicy", 
-    "rasa_core.policies.fallback.FallbackPolicy", 
-    "rasa_core.policies.memoization.MemoizationPolicy", 
-    "rasa_core.policies.form_policy.FormPolicy"
-  ], 
   "action_fingerprints": {
-    "utter_formations_internationales": {
-      "slots": []
-    }, 
-    "utter_bourses": {
-      "slots": []
-    }, 
-    "utter_s\u00e9curit\u00e9_sociale": {
-      "slots": []
-    }, 
     "action_listen": {
       "slots": []
-    }, 
-    "utter_journ\u00e9es_portes_ouvertes": {
+    },
+    "utter_De_l'international": {
       "slots": []
-    }, 
-    "utter_emploi_du_temps": {
+    },
+    "utter_De_la_recherche": {
       "slots": []
-    }, 
-    "utter_parcoursup": {
+    },
+    "utter_Du_Magazine_U": {
       "slots": []
-    }, 
-    "utter_ressources_pedagogiques": {
+    },
+    "utter_Des_biblioth\u00e8ques": {
       "slots": []
-    }, 
-    "utter_formations_post_BAC": {
+    },
+    "utter_De_la_vie_de_campus": {
       "slots": []
-    }, 
-    "utter_professeurs": {
+    },
+    "utter_Des_\u00e9tudes": {
       "slots": []
-    }, 
-    "utter_formations_enseignement_superieur": {
+    },
+    "utter_De_la_formation": {
       "slots": []
-    }, 
-    "utter_appartements_\u00e9tudiants": {
-      "slots": []
-    }, 
-    "utter_salutation": {
-      "slots": []
-    }, 
-    "utter_ressources_administratives": {
-      "slots": []
-    }, 
-    "utter_vie_associative": {
-      "slots": []
-    }, 
-    "utter_assistance_ENT": {
-      "slots": []
-    }, 
-    "utter_salles": {
+    },
+    "utter_De_l'universit\u00e9": {
       "slots": []
     }
-  }
+  },
+  "python": "3.6.1",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190331-061556",
+  "rasa_core": "0.13.6",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
 }
