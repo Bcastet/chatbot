@@ -24,20 +24,20 @@ actions:
 
 templates:
 - utter_De_la_formation:
-  - text: "Les renseignements sur le.s de la formation se trouvent ici: https://u-bordeaux.fr/International/De la formation"
+  - text: "Quel article sur le sujet De la formation cherchez vous?"
 - utter_Des_collèges_et_départements:
-  - text: "Les renseignements sur le.s des coll�ges et d�partements se trouvent ici: https://u-bordeaux.fr/International/Des collèges et départements"
+  - text: "Quel article sur le sujet Des collèges et départements cherchez vous?"
 - utter_De_l'université:
-  - text: "Les renseignements sur le.s de l'universit� se trouvent ici: https://u-bordeaux.fr/International/De l'université"
+  - text: "Quel article sur le sujet De l'université cherchez vous?"
 - utter_De_l'admission:
-  - text: "Les renseignements sur le.s de l'admission se trouvent ici: https://u-bordeaux.fr/International/De l'admission"
+  - text: "Quel article sur le sujet De l'admission cherchez vous?"
 - utter_De_la_recherche:
-  - text: "Les renseignements sur le.s de la recherche se trouvent ici: https://u-bordeaux.fr/International/De la recherche"
+  - text: "Quel article sur le sujet De la recherche cherchez vous?"
 - utter_De_la_vie_de_campus:
-  - text: "Les renseignements sur le.s de la vie de campus se trouvent ici: https://u-bordeaux.fr/International/De la vie de campus"
+  - text: "Quel article sur le sujet De la vie de campus cherchez vous?"
 - utter_Des_bibliothèques:
-  - text: "Les renseignements sur le.s des biblioth�ques se trouvent ici: https://u-bordeaux.fr/International/Des bibliothèques"
+  - text: "Quel article sur le sujet Des bibliothèques cherchez vous?"
 - utter_Forum_Montesquieu:
-  - text: "Les renseignements sur le.s forum montesquieu se trouvent ici: https://u-bordeaux.fr/International/Forum Montesquieu"
+  - text: "Quel article sur le sujet Forum Montesquieu cherchez vous?"
 - utter_Rentrée_2018:
-  - text: "Les renseignements sur le.s rentr�e 2018 se trouvent ici: https://u-bordeaux.fr/International/Rentrée 2018"
+  - text: "Quel article sur le sujet Rentrée 2018 cherchez vous?"

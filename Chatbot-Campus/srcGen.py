@@ -110,8 +110,9 @@ def createDomain(items):
 items = parseFile()
 items.pop('Campus')
 items.pop("Tous les événements de la rentrée 2015")
-print(items)
+
 createDomain(items)
 createStories(items)
 createNlu(items)
+print("Chatbot generated")
 

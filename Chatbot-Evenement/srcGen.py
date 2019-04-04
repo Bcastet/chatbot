@@ -98,7 +98,8 @@ def createDomain(items):
 		domainyml.write("  - text: \"Quel article sur le sujet "+item.replace("-"," ")+" cherchez vous?\"\n")
 
 items = parseFile()
-print(items)
+
 createStories(items)
 createNlu(items)
 createDomain(items)
+print("Not Done")

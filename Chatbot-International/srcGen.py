@@ -119,8 +119,8 @@ def createDomain(items):
 
 items = parseFile()
 items.pop("International")
-print(items)
+
 createDomain(items)
 createStories(items)
 createNlu(items)
-
+print("Chatbot generated")

@@ -34,7 +34,7 @@ def parseFile():
 					realCategories[tmp[1]]=tmp[0]
 				items[tmp[1]]=tmp[0]
 		lineChecker+=1
-	print(realCategories)
+	
 	return realCategories
 
 
@@ -94,7 +94,7 @@ def createDomain(items):
 	for item in items.keys():
 		
 		domainyml.write("  utter_"+(item.replace(" ","_"))+":\n")
-		print(item)
+		
 		towrite = "    - \"Toute l'actualitÃ© "+item.replace("D","d")+" se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category="+items[item]+"\"\n"
 		
 		domainyml.write(towrite)
@@ -104,4 +104,4 @@ items = parseFile()
 createDomain(items)
 createStories(items)
 createNlu(items)
-
+print("Chatbot generated")
