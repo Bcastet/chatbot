@@ -1,6 +1,9 @@
 const divBot = document.querySelector("#bot");
 const inputMessage = document.querySelector("#input-message");
-const url = 'http://localhost:5005/webhooks/rest/webhook';
+const urlA = 'http://localhost:5005/webhooks/rest/webhook';
+const urlI = 'http://localhost:5006/webhooks/rest/webhook';
+const urlC = 'http://localhost:5007/webhooks/rest/webhook';
+const urlR = 'http://localhost:5008/webhooks/rest/webhook';
 
 
 if(divBot == null) {
@@ -18,7 +21,7 @@ inputMessage.addEventListener("keyup", function(event) {
         divBot.append(p);
 
         let data = {
-            "sender" : "Etienne",
+            "sender" : "Bots",
             "message" : textInput
         };
 
@@ -32,7 +35,43 @@ inputMessage.addEventListener("keyup", function(event) {
         })
         };
 
-        fetch(url, fetchData)
+        fetch(urlA, fetchData)
+	.then((data) => {
+                data.json().then((json) => {
+                    const p2 = document.createElement("p");
+                    p2.innerText = json[0].text;
+                    p2.style = "color : red";
+                    divBot.append(p2);
+                });
+            })
+            .catch( (error) => {
+                console.error(error);
+        });
+	fetch(urlI, fetchData)
+	.then((data) => {
+                data.json().then((json) => {
+                    const p2 = document.createElement("p");
+                    p2.innerText = json[0].text;
+                    p2.style = "color : red";
+                    divBot.append(p2);
+                });
+            })
+            .catch( (error) => {
+                console.error(error);
+        });
+	fetch(urlC, fetchData)
+	.then((data) => {
+                data.json().then((json) => {
+                    const p2 = document.createElement("p");
+                    p2.innerText = json[0].text;
+                    p2.style = "color : red";
+                    divBot.append(p2);
+                });
+            })
+            .catch( (error) => {
+                console.error(error);
+        });
+	fetch(urlR, fetchData)
             .then((data) => {
                 data.json().then((json) => {
                     const p2 = document.createElement("p");
