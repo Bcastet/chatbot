@@ -1,52 +1,22 @@
-Je cherche un livre
-ressources_pedagogiques
-Mon ENT ne marche pas
-assistance_ENT
-J'ai quel cours après?
-emploi_du_temps
-Je peux faire quoi comme licence?
-formations_post_BAC
-Qu'est-ce qui est prévu pour les JPO?
-journées_portes_ouvertes
-Je n'arrive pas à trouver vos formations sur Parcoursup
-parcoursup
-Je cherche un appartement étudiant
-appartements_étudiants
-Je n'ai pas reçu mes bourses
-bourses
-Comment obtenir un certificat de scolarité?
-ressources_administratives
-Quelles licences sont disponibles à Bordeaux?
-formations_post_BAC
-Quels masters sont disponibles à Bordeaux?
-formations_enseignement_superieur
-Je voudrais partir en Corée
-formations_internationales
-Je voudrais partir à l'étranger
-formations_internationales
-Je voudrais partir au Japon
-formations_internationales
-Quels associations existent à la fac?
-vie_associative
-Où se trouve la BU?
-salles
-Quand sont les journées_portes_ouvertes?
-journées_portes_ouvertes
-Comment souscrire à la LMDE?
-sécurité_sociale
-Je n'arrive pas à m'inscrire à la mutuelle étudiante
-sécurité_sociale
-Est-ce que j'ai le droit aux bourses?
-bourses
-Comment avoir ma carte d'étudiant?
-utter_ressources_administratives
-Où se trouve le gichet unique?
-salles
-Comment faire du sport étudiant?
-vie_associative
-Il y a des concerts des fois?
-vie_associative
-Les Campulsations c'est quand et où?
-vie_associative
-Quelle est l'adresse mail de ce professeur?
-professeurs
+Comment avoir le droit de diriger des recherches ?
+Habilitation_à_diriger_des_recherches
+Je veux faire un doctorat.
+Études_doctorales
+Comment valoriser mes recherches ?
+Valorisation
+Comment m'installer en tant que chercheur international ?
+Intégration_des_chercheurs_internationaux
+Quels sont les domaines d'excellence ?
+Initiative_d'excellence_de_l'université_de_Bordeaux
+Je veux voir les collections scientifiques.
+Collections_scientifiques
+Quels sont les laboratoires de l'université ?
+Laboratoires_internationaux
+Je veux m'installer en tant que scientifique.
+Intégrité_scientifique
+Comment est dirigée la recherche ?
+Panorama_de_la_recherche
+Quels sont les programmes prévus en Europe ?
+Programmes_européens
+Quel est le projet d'institut d'études avancées ?
+Institut_d’études_avancées

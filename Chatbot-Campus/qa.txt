@@ -1,52 +1,30 @@
-Je cherche un livre
-ressources_pedagogiques
-Mon ENT ne marche pas
-assistance_ENT
-J'ai quel cours après?
-emploi_du_temps
-Je peux faire quoi comme licence?
-formations_post_BAC
-Qu'est-ce qui est prévu pour les JPO?
-journées_portes_ouvertes
-Je n'arrive pas à trouver vos formations sur Parcoursup
-parcoursup
-Je cherche un appartement étudiant
-appartements_étudiants
-Je n'ai pas reçu mes bourses
-bourses
-Comment obtenir un certificat de scolarité?
-ressources_administratives
-Quelles licences sont disponibles à Bordeaux?
-formations_post_BAC
-Quels masters sont disponibles à Bordeaux?
-formations_enseignement_superieur
-Je voudrais partir en Corée
-formations_internationales
-Je voudrais partir à l'étranger
-formations_internationales
-Je voudrais partir au Japon
-formations_internationales
-Quels associations existent à la fac?
-vie_associative
-Où se trouve la BU?
-salles
-Quand sont les journées_portes_ouvertes?
-journées_portes_ouvertes
-Comment souscrire à la LMDE?
-sécurité_sociale
-Je n'arrive pas à m'inscrire à la mutuelle étudiante
-sécurité_sociale
-Est-ce que j'ai le droit aux bourses?
-bourses
-Comment avoir ma carte d'étudiant?
-utter_ressources_administratives
-Où se trouve le gichet unique?
-salles
-Comment faire du sport étudiant?
-vie_associative
-Il y a des concerts des fois?
-vie_associative
-Les Campulsations c'est quand et où?
-vie_associative
-Quelle est l'adresse mail de ce professeur?
-professeurs
+Où se trouve l'accueil des étudiants ?
+Accueil_des_étudiants
+Où se trouve le bureau de la vie étudiante ?
+Accueil_des_étudiants
+Où se trouve le bureau étudiant ?
+Accueil_des_étudiants
+Où est le BVE ?
+Accueil_des_étudiants
+J'ai besoin d'assistance.
+Social
+Où avoir mes bourses ?
+Social
+je cherche l'espace santé.
+Social
+J'ai besoin d'aide.
+Social
+Je cherche des informations.
+Social
+Je cherche une association.
+Vie_associative
+Je veux accéder à l'annuaire des associations.
+Vie_associative
+Je veux me domiciler.
+Vie_associative
+Je veux un hébergement à l'Université.
+Vie_associative
+Je veux organiser un événement.
+Vie_associative
+Qui sont les élus étudiants ?
+Citoyenneté_étudiante
