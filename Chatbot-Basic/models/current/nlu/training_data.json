@@ -1,0 +1,25 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Ou est mon emploi du temps?",
+        "intent": "emploi_du_temps"
+      },
+      {
+        "text": "J'ai quoi cet après midi?",
+        "intent": "emploi_du_temps"
+      },
+      {
+        "text": "Je ne sais pas quand est-ce que j'ai cours",
+        "intent": "emploi_du_temps"
+      },
+      {
+        "text": "Ou est le batiment B16?",
+        "intent": "salles"
+      }
+    ],
+    "lookup_tables": [],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
