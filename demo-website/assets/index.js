@@ -39,7 +39,7 @@ inputMessage.addEventListener("keyup", function(event) {
 	.then((data) => {
                 data.json().then((json) => {
                     const p2 = document.createElement("p");
-                    p2.innerText = json[0].text;
+                    p2.innerText = "Actualités : " + json[0].text;
                     p2.style = "color : red";
                     divBot.append(p2);
                 });
@@ -51,8 +51,8 @@ inputMessage.addEventListener("keyup", function(event) {
 	.then((data) => {
                 data.json().then((json) => {
                     const p2 = document.createElement("p");
-                    p2.innerText = json[0].text;
-                    p2.style = "color : red";
+                    p2.innerText = "International : " + json[0].text;
+                    p2.style = "color : green";
                     divBot.append(p2);
                 });
             })
@@ -63,8 +63,8 @@ inputMessage.addEventListener("keyup", function(event) {
 	.then((data) => {
                 data.json().then((json) => {
                     const p2 = document.createElement("p");
-                    p2.innerText = json[0].text;
-                    p2.style = "color : red";
+                    p2.innerText = "Campus : " + json[0].text;
+                    p2.style = "color : purple";
                     divBot.append(p2);
                 });
             })
@@ -75,8 +75,8 @@ inputMessage.addEventListener("keyup", function(event) {
             .then((data) => {
                 data.json().then((json) => {
                     const p2 = document.createElement("p");
-                    p2.innerText = json[0].text;
-                    p2.style = "color : red";
+                    p2.innerText ="Recherche : " + json[0].text;
+                    p2.style = "color : brown";
                     divBot.append(p2);
                 });
             })
