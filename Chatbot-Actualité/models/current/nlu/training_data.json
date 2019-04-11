@@ -1,137 +1,137 @@
 {
   "rasa_nlu_data": {
+    "entity_synonyms": [],
     "common_examples": [
       {
-        "intent": "De_la_formation",
-        "text": "Je cherche des articles à propos de la formation"
+        "text": "Je cherche des articles à propos de la vie de campus",
+        "intent": "De_la_vie_de_campus"
       },
       {
-        "intent": "De_la_formation",
-        "text": "Quelles sont les dernières informations à propos de la formation?"
+        "text": "Quelles sont les dernières informations à propos de la vie de campus?",
+        "intent": "De_la_vie_de_campus"
       },
       {
-        "intent": "De_la_formation",
-        "text": "Quelles sont les dernières actualités à propos de la formation?"
+        "text": "Quelles sont les dernières actualités à propos de la vie de campus?",
+        "intent": "De_la_vie_de_campus"
       },
       {
-        "intent": "De_la_formation",
-        "text": "Je cherche les dernières nouvelles à propos de la formation"
+        "text": "Je cherche les dernières nouvelles à propos de la vie de campus",
+        "intent": "De_la_vie_de_campus"
       },
       {
-        "intent": "De_l'université",
-        "text": "Je cherche des articles à propos de l'université"
+        "text": "Je cherche des articles à propos des études",
+        "intent": "Des_études"
       },
       {
-        "intent": "De_l'université",
-        "text": "Quelles sont les dernières informations à propos de l'université?"
+        "text": "Quelles sont les dernières informations à propos des études?",
+        "intent": "Des_études"
       },
       {
-        "intent": "De_l'université",
-        "text": "Quelles sont les dernières actualités à propos de l'université?"
+        "text": "Quelles sont les dernières actualités à propos des études?",
+        "intent": "Des_études"
       },
       {
-        "intent": "De_l'université",
-        "text": "Je cherche les dernières nouvelles à propos de l'université"
+        "text": "Je cherche les dernières nouvelles à propos des études",
+        "intent": "Des_études"
       },
       {
-        "intent": "De_la_recherche",
-        "text": "Je cherche des articles à propos de la recherche"
+        "text": "Je cherche des articles à propos de l'université",
+        "intent": "De_l'université"
       },
       {
-        "intent": "De_la_recherche",
-        "text": "Quelles sont les dernières informations à propos de la recherche?"
+        "text": "Quelles sont les dernières informations à propos de l'université?",
+        "intent": "De_l'université"
       },
       {
-        "intent": "De_la_recherche",
-        "text": "Quelles sont les dernières actualités à propos de la recherche?"
+        "text": "Quelles sont les dernières actualités à propos de l'université?",
+        "intent": "De_l'université"
       },
       {
-        "intent": "De_la_recherche",
-        "text": "Je cherche les dernières nouvelles à propos de la recherche"
+        "text": "Je cherche les dernières nouvelles à propos de l'université",
+        "intent": "De_l'université"
       },
       {
-        "intent": "Des_bibliothèques",
-        "text": "Je cherche des articles à propos des bibliothèques"
+        "text": "Je cherche des articles à propos de l'international",
+        "intent": "De_l'international"
       },
       {
-        "intent": "Des_bibliothèques",
-        "text": "Quelles sont les dernières informations à propos des bibliothèques?"
+        "text": "Quelles sont les dernières informations à propos de l'international?",
+        "intent": "De_l'international"
       },
       {
-        "intent": "Des_bibliothèques",
-        "text": "Quelles sont les dernières actualités à propos des bibliothèques?"
+        "text": "Quelles sont les dernières actualités à propos de l'international?",
+        "intent": "De_l'international"
       },
       {
-        "intent": "Des_bibliothèques",
-        "text": "Je cherche les dernières nouvelles à propos des bibliothèques"
+        "text": "Je cherche les dernières nouvelles à propos de l'international",
+        "intent": "De_l'international"
       },
       {
-        "intent": "Des_études",
-        "text": "Je cherche des articles à propos des études"
+        "text": "Je cherche des articles à propos de la recherche",
+        "intent": "De_la_recherche"
       },
       {
-        "intent": "Des_études",
-        "text": "Quelles sont les dernières informations à propos des études?"
+        "text": "Quelles sont les dernières informations à propos de la recherche?",
+        "intent": "De_la_recherche"
       },
       {
-        "intent": "Des_études",
-        "text": "Quelles sont les dernières actualités à propos des études?"
+        "text": "Quelles sont les dernières actualités à propos de la recherche?",
+        "intent": "De_la_recherche"
       },
       {
-        "intent": "Des_études",
-        "text": "Je cherche les dernières nouvelles à propos des études"
+        "text": "Je cherche les dernières nouvelles à propos de la recherche",
+        "intent": "De_la_recherche"
       },
       {
-        "intent": "De_la_vie_de_campus",
-        "text": "Je cherche des articles à propos de la vie de campus"
+        "text": "Je cherche des articles à propos du magazine u",
+        "intent": "Du_Magazine_U"
       },
       {
-        "intent": "De_la_vie_de_campus",
-        "text": "Quelles sont les dernières informations à propos de la vie de campus?"
+        "text": "Quelles sont les dernières informations à propos du magazine u?",
+        "intent": "Du_Magazine_U"
       },
       {
-        "intent": "De_la_vie_de_campus",
-        "text": "Quelles sont les dernières actualités à propos de la vie de campus?"
+        "text": "Quelles sont les dernières actualités à propos du magazine u?",
+        "intent": "Du_Magazine_U"
       },
       {
-        "intent": "De_la_vie_de_campus",
-        "text": "Je cherche les dernières nouvelles à propos de la vie de campus"
+        "text": "Je cherche les dernières nouvelles à propos du magazine u",
+        "intent": "Du_Magazine_U"
       },
       {
-        "intent": "Du_Magazine_U",
-        "text": "Je cherche des articles à propos du magazine u"
+        "text": "Je cherche des articles à propos de la formation",
+        "intent": "De_la_formation"
       },
       {
-        "intent": "Du_Magazine_U",
-        "text": "Quelles sont les dernières informations à propos du magazine u?"
+        "text": "Quelles sont les dernières informations à propos de la formation?",
+        "intent": "De_la_formation"
       },
       {
-        "intent": "Du_Magazine_U",
-        "text": "Quelles sont les dernières actualités à propos du magazine u?"
+        "text": "Quelles sont les dernières actualités à propos de la formation?",
+        "intent": "De_la_formation"
       },
       {
-        "intent": "Du_Magazine_U",
-        "text": "Je cherche les dernières nouvelles à propos du magazine u"
+        "text": "Je cherche les dernières nouvelles à propos de la formation",
+        "intent": "De_la_formation"
       },
       {
-        "intent": "De_l'international",
-        "text": "Je cherche des articles à propos de l'international"
+        "text": "Je cherche des articles à propos des bibliothèques",
+        "intent": "Des_bibliothèques"
       },
       {
-        "intent": "De_l'international",
-        "text": "Quelles sont les dernières informations à propos de l'international?"
+        "text": "Quelles sont les dernières informations à propos des bibliothèques?",
+        "intent": "Des_bibliothèques"
       },
       {
-        "intent": "De_l'international",
-        "text": "Quelles sont les dernières actualités à propos de l'international?"
+        "text": "Quelles sont les dernières actualités à propos des bibliothèques?",
+        "intent": "Des_bibliothèques"
       },
       {
-        "intent": "De_l'international",
-        "text": "Je cherche les dernières nouvelles à propos de l'international"
+        "text": "Je cherche les dernières nouvelles à propos des bibliothèques",
+        "intent": "Des_bibliothèques"
       }
     ],
-    "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "regex_features": []
   }
 }

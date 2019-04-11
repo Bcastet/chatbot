@@ -1,43 +1,43 @@
 %YAML 1.1
 ---
 actions:
+- utter_Programmes_européens
+- utter_Valorisation
+- utter_Institut_d’études_avancées
+- utter_Collections_scientifiques
 - utter_Études_doctorales
 - utter_Habilitation_à_diriger_des_recherches
-- utter_Valorisation
-- utter_Panorama_de_la_recherche
-- utter_Programmes_européens
+- utter_Initiative_d'excellence_de_l'université_de_Bordeaux
+- utter_Intégrité_scientifique
 - utter_Laboratoires_internationaux
 - utter_Intégration_des_chercheurs_internationaux
-- utter_Intégrité_scientifique
-- utter_Institut_d’études_avancées
-- utter_Initiative_d'excellence_de_l'université_de_Bordeaux
-- utter_Collections_scientifiques
+- utter_Panorama_de_la_recherche
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- Études_doctorales:
-    use_entities: true
-- Habilitation_à_diriger_des_recherches:
-    use_entities: true
-- Valorisation:
-    use_entities: true
-- Panorama_de_la_recherche:
+- Institut_d’études_avancées:
     use_entities: true
 - Programmes_européens:
     use_entities: true
-- Laboratoires_internationaux:
+- Études_doctorales:
     use_entities: true
-- Intégration_des_chercheurs_internationaux:
+- Valorisation:
     use_entities: true
 - Intégrité_scientifique:
     use_entities: true
-- Institut_d’études_avancées:
+- Panorama_de_la_recherche:
+    use_entities: true
+- Intégration_des_chercheurs_internationaux:
+    use_entities: true
+- Laboratoires_internationaux:
     use_entities: true
 - Initiative_d'excellence_de_l'université_de_Bordeaux:
     use_entities: true
 - Collections_scientifiques:
+    use_entities: true
+- Habilitation_à_diriger_des_recherches:
     use_entities: true
 slots: {}
 templates:

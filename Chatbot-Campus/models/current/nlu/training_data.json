@@ -1,153 +1,153 @@
 {
   "rasa_nlu_data": {
+    "lookup_tables": [],
     "common_examples": [
       {
-        "intent": "Accueil_des_étudiants",
-        "text": "Je cherche des informations à propos de accueil des étudiants"
+        "text": "Je cherche des informations à propos de sport",
+        "intent": "Sport"
       },
       {
-        "intent": "Accueil_des_étudiants",
-        "text": "Où puis-je trouver les informations concernant accueil des étudiants?"
+        "text": "Où puis-je trouver les informations concernant sport?",
+        "intent": "Sport"
       },
       {
-        "intent": "Accueil_des_étudiants",
-        "text": "Je cherche le portail accueil des étudiants"
+        "text": "Je cherche le portail sport",
+        "intent": "Sport"
       },
       {
-        "intent": "Social",
-        "text": "Je cherche des informations à propos de social"
+        "text": "Je cherche des informations à propos de vie pratique",
+        "intent": "Vie_pratique"
       },
       {
-        "intent": "Social",
-        "text": "Où puis-je trouver les informations concernant social?"
+        "text": "Où puis-je trouver les informations concernant vie pratique?",
+        "intent": "Vie_pratique"
       },
       {
-        "intent": "Social",
-        "text": "Je cherche le portail social"
+        "text": "Je cherche le portail vie pratique",
+        "intent": "Vie_pratique"
       },
       {
-        "intent": "Vie_associative",
-        "text": "Je cherche des informations à propos de vie associative"
+        "text": "Je cherche des informations à propos de citoyenneté étudiante",
+        "intent": "Citoyenneté_étudiante"
       },
       {
-        "intent": "Vie_associative",
-        "text": "Où puis-je trouver les informations concernant vie associative?"
+        "text": "Où puis-je trouver les informations concernant citoyenneté étudiante?",
+        "intent": "Citoyenneté_étudiante"
       },
       {
-        "intent": "Vie_associative",
-        "text": "Je cherche le portail vie associative"
+        "text": "Je cherche le portail citoyenneté étudiante",
+        "intent": "Citoyenneté_étudiante"
       },
       {
-        "intent": "Citoyenneté_étudiante",
-        "text": "Je cherche des informations à propos de citoyenneté étudiante"
+        "text": "Je cherche des informations à propos de social",
+        "intent": "Social"
       },
       {
-        "intent": "Citoyenneté_étudiante",
-        "text": "Où puis-je trouver les informations concernant citoyenneté étudiante?"
+        "text": "Où puis-je trouver les informations concernant social?",
+        "intent": "Social"
       },
       {
-        "intent": "Citoyenneté_étudiante",
-        "text": "Je cherche le portail citoyenneté étudiante"
+        "text": "Je cherche le portail social",
+        "intent": "Social"
       },
       {
-        "intent": "Culture",
-        "text": "Je cherche des informations à propos de culture"
+        "text": "Je cherche des informations à propos de services numériques",
+        "intent": "Services_numériques"
       },
       {
-        "intent": "Culture",
-        "text": "Où puis-je trouver les informations concernant culture?"
+        "text": "Où puis-je trouver les informations concernant services numériques?",
+        "intent": "Services_numériques"
       },
       {
-        "intent": "Culture",
-        "text": "Je cherche le portail culture"
+        "text": "Je cherche le portail services numériques",
+        "intent": "Services_numériques"
       },
       {
-        "intent": "Sport",
-        "text": "Je cherche des informations à propos de sport"
+        "text": "Je cherche des informations à propos de vie associative",
+        "intent": "Vie_associative"
       },
       {
-        "intent": "Sport",
-        "text": "Où puis-je trouver les informations concernant sport?"
+        "text": "Où puis-je trouver les informations concernant vie associative?",
+        "intent": "Vie_associative"
       },
       {
-        "intent": "Sport",
-        "text": "Je cherche le portail sport"
+        "text": "Je cherche le portail vie associative",
+        "intent": "Vie_associative"
       },
       {
-        "intent": "Les_bibliothèques",
-        "text": "Je cherche des informations à propos de les bibliothèques"
+        "text": "Je cherche des informations à propos de boutique",
+        "intent": "Boutique"
       },
       {
-        "intent": "Les_bibliothèques",
-        "text": "Où puis-je trouver les informations concernant les bibliothèques?"
+        "text": "Où puis-je trouver les informations concernant boutique?",
+        "intent": "Boutique"
       },
       {
-        "intent": "Les_bibliothèques",
-        "text": "Je cherche le portail les bibliothèques"
+        "text": "Je cherche le portail boutique",
+        "intent": "Boutique"
       },
       {
-        "intent": "Vie_pratique",
-        "text": "Je cherche des informations à propos de vie pratique"
+        "text": "Je cherche des informations à propos de accueil des étudiants",
+        "intent": "Accueil_des_étudiants"
       },
       {
-        "intent": "Vie_pratique",
-        "text": "Où puis-je trouver les informations concernant vie pratique?"
+        "text": "Où puis-je trouver les informations concernant accueil des étudiants?",
+        "intent": "Accueil_des_étudiants"
       },
       {
-        "intent": "Vie_pratique",
-        "text": "Je cherche le portail vie pratique"
+        "text": "Je cherche le portail accueil des étudiants",
+        "intent": "Accueil_des_étudiants"
       },
       {
-        "intent": "Emplois_étudiants",
-        "text": "Je cherche des informations à propos de emplois étudiants"
+        "text": "Je cherche des informations à propos de espace santé étudiants",
+        "intent": "Espace_santé_étudiants"
       },
       {
-        "intent": "Emplois_étudiants",
-        "text": "Où puis-je trouver les informations concernant emplois étudiants?"
+        "text": "Où puis-je trouver les informations concernant espace santé étudiants?",
+        "intent": "Espace_santé_étudiants"
       },
       {
-        "intent": "Emplois_étudiants",
-        "text": "Je cherche le portail emplois étudiants"
+        "text": "Je cherche le portail espace santé étudiants",
+        "intent": "Espace_santé_étudiants"
       },
       {
-        "intent": "Espace_santé_étudiants",
-        "text": "Je cherche des informations à propos de espace santé étudiants"
+        "text": "Je cherche des informations à propos de emplois étudiants",
+        "intent": "Emplois_étudiants"
       },
       {
-        "intent": "Espace_santé_étudiants",
-        "text": "Où puis-je trouver les informations concernant espace santé étudiants?"
+        "text": "Où puis-je trouver les informations concernant emplois étudiants?",
+        "intent": "Emplois_étudiants"
       },
       {
-        "intent": "Espace_santé_étudiants",
-        "text": "Je cherche le portail espace santé étudiants"
+        "text": "Je cherche le portail emplois étudiants",
+        "intent": "Emplois_étudiants"
       },
       {
-        "intent": "Boutique",
-        "text": "Je cherche des informations à propos de boutique"
+        "text": "Je cherche des informations à propos de les bibliothèques",
+        "intent": "Les_bibliothèques"
       },
       {
-        "intent": "Boutique",
-        "text": "Où puis-je trouver les informations concernant boutique?"
+        "text": "Où puis-je trouver les informations concernant les bibliothèques?",
+        "intent": "Les_bibliothèques"
       },
       {
-        "intent": "Boutique",
-        "text": "Je cherche le portail boutique"
+        "text": "Je cherche le portail les bibliothèques",
+        "intent": "Les_bibliothèques"
       },
       {
-        "intent": "Services_numériques",
-        "text": "Je cherche des informations à propos de services numériques"
+        "text": "Je cherche des informations à propos de culture",
+        "intent": "Culture"
       },
       {
-        "intent": "Services_numériques",
-        "text": "Où puis-je trouver les informations concernant services numériques?"
+        "text": "Où puis-je trouver les informations concernant culture?",
+        "intent": "Culture"
       },
       {
-        "intent": "Services_numériques",
-        "text": "Je cherche le portail services numériques"
+        "text": "Je cherche le portail culture",
+        "intent": "Culture"
       }
     ],
     "regex_features": [],
-    "lookup_tables": [],
     "entity_synonyms": []
   }
 }

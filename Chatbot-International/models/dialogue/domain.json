@@ -16,14 +16,14 @@
     "prev_action_revert_fallback_events",
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
+    "prev_utter_Partir_\u00e0_l'\u00e9tranger",
     "prev_utter_Ambition_internationale",
-    "prev_utter_Partenaires",
     "prev_utter_Programmes_europ\u00e9ens",
-    "prev_utter_Laboratoires_internationaux",
-    "prev_utter_Formations_internationales_",
     "prev_utter_Contact",
     "prev_utter_Bloc_Actualit\u00e9s_de_l'international",
     "prev_utter_Venir_\u00e0_Bordeaux",
-    "prev_utter_Partir_\u00e0_l'\u00e9tranger"
+    "prev_utter_Formations_internationales_",
+    "prev_utter_Partenaires",
+    "prev_utter_Laboratoires_internationaux"
   ]
 }

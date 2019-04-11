@@ -15,13 +15,13 @@
     "prev_action_revert_fallback_events",
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
-    "prev_utter_De_la_formation",
-    "prev_utter_De_l'universit\u00e9",
-    "prev_utter_De_la_recherche",
-    "prev_utter_Des_biblioth\u00e8ques",
-    "prev_utter_Des_\u00e9tudes",
     "prev_utter_De_la_vie_de_campus",
+    "prev_utter_Des_\u00e9tudes",
+    "prev_utter_De_l'universit\u00e9",
+    "prev_utter_De_l'international",
+    "prev_utter_De_la_recherche",
     "prev_utter_Du_Magazine_U",
-    "prev_utter_De_l'international"
+    "prev_utter_De_la_formation",
+    "prev_utter_Des_biblioth\u00e8ques"
   ]
 }

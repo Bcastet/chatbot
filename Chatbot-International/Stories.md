@@ -1,22 +1,14 @@
+## Partir_à_l'étranger path
+* Partir_à_l'étranger
+  - utter_Partir_à_l'étranger
+
 ## Ambition_internationale path
 * Ambition_internationale
   - utter_Ambition_internationale
 
-## Partenaires path
-* Partenaires
-  - utter_Partenaires
-
 ## Programmes_européens path
 * Programmes_européens
   - utter_Programmes_européens
-
-## Laboratoires_internationaux path
-* Laboratoires_internationaux
-  - utter_Laboratoires_internationaux
-
-## Formations_internationales_ path
-* Formations_internationales_
-  - utter_Formations_internationales_
 
 ## Contact path
 * Contact
@@ -30,7 +22,15 @@
 * Venir_à_Bordeaux
   - utter_Venir_à_Bordeaux
 
-## Partir_à_l'étranger path
-* Partir_à_l'étranger
-  - utter_Partir_à_l'étranger
+## Formations_internationales_ path
+* Formations_internationales_
+  - utter_Formations_internationales_
+
+## Partenaires path
+* Partenaires
+  - utter_Partenaires
+
+## Laboratoires_internationaux path
+* Laboratoires_internationaux
+  - utter_Laboratoires_internationaux
 

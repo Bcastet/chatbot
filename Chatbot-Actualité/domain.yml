@@ -1,37 +1,37 @@
 intents:
-  - De_la_formation
-  - De_l'université
-  - De_la_recherche
-  - Des_bibliothèques
-  - Des_études
   - De_la_vie_de_campus
-  - Du_Magazine_U
+  - Des_études
+  - De_l'université
   - De_l'international
+  - De_la_recherche
+  - Du_Magazine_U
+  - De_la_formation
+  - Des_bibliothèques
 
 actions:
-- utter_De_la_formation
-- utter_De_l'université
-- utter_De_la_recherche
-- utter_Des_bibliothèques
-- utter_Des_études
 - utter_De_la_vie_de_campus
-- utter_Du_Magazine_U
+- utter_Des_études
+- utter_De_l'université
 - utter_De_l'international
+- utter_De_la_recherche
+- utter_Du_Magazine_U
+- utter_De_la_formation
+- utter_Des_bibliothèques
 
 templates:
-  utter_De_la_formation:
-    - "Toute l'actualité de la formation se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-la-formation"
-  utter_De_l'université:
-    - "Toute l'actualité de l'université se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-l-universite"
-  utter_De_la_recherche:
-    - "Toute l'actualité de la recherche se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-la-recherche"
-  utter_Des_bibliothèques:
-    - "Toute l'actualité des bibliothèques se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Des-bibliotheques"
-  utter_Des_études:
-    - "Toute l'actualité des études se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Des-etudes"
   utter_De_la_vie_de_campus:
     - "Toute l'actualité de la vie de campus se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-la-vie-de-campus"
-  utter_Du_Magazine_U:
-    - "Toute l'actualité du Magazine U se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Du-Magazine-U"
+  utter_Des_études:
+    - "Toute l'actualité des études se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Des-etudes"
+  utter_De_l'université:
+    - "Toute l'actualité de l'université se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-l-universite"
   utter_De_l'international:
     - "Toute l'actualité de l'international se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-l-international"
+  utter_De_la_recherche:
+    - "Toute l'actualité de la recherche se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-la-recherche"
+  utter_Du_Magazine_U:
+    - "Toute l'actualité du Magazine U se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Du-Magazine-U"
+  utter_De_la_formation:
+    - "Toute l'actualité de la formation se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=De-la-formation"
+  utter_Des_bibliothèques:
+    - "Toute l'actualité des bibliothèques se trouve sur cette page : https://www.u-bordeaux.fr/Actualites?category=Des-bibliotheques"

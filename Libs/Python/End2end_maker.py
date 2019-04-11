@@ -1,3 +1,4 @@
+
 nb_stories = 0
 line_number = 0
 with open("e2e_stories.md","w") as e2e_stories:

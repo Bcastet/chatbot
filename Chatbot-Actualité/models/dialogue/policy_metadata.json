@@ -1,49 +1,49 @@
 {
-  "action_fingerprints": {
-    "action_listen": {
-      "slots": []
-    },
-    "utter_De_l'international": {
-      "slots": []
-    },
-    "utter_De_la_recherche": {
-      "slots": []
-    },
-    "utter_Du_Magazine_U": {
-      "slots": []
-    },
-    "utter_Des_biblioth\u00e8ques": {
-      "slots": []
-    },
-    "utter_De_la_vie_de_campus": {
-      "slots": []
-    },
-    "utter_Des_\u00e9tudes": {
-      "slots": []
-    },
-    "utter_De_la_formation": {
-      "slots": []
-    },
-    "utter_De_l'universit\u00e9": {
-      "slots": []
-    }
-  },
-  "python": "3.6.1",
   "max_histories": [
     5,
     null,
     5,
     2
   ],
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "python": "3.5.3",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190331-204848",
-  "rasa_core": "0.13.6",
+  "action_fingerprints": {
+    "utter_De_la_vie_de_campus": {
+      "slots": []
+    },
+    "utter_Des_biblioth\u00e8ques": {
+      "slots": []
+    },
+    "utter_De_la_recherche": {
+      "slots": []
+    },
+    "utter_De_la_formation": {
+      "slots": []
+    },
+    "utter_Des_\u00e9tudes": {
+      "slots": []
+    },
+    "utter_De_l'universit\u00e9": {
+      "slots": []
+    },
+    "utter_Du_Magazine_U": {
+      "slots": []
+    },
+    "utter_De_l'international": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": []
+    }
+  },
   "tensorflow": "1.12.0",
-  "sklearn": "0.20.3"
+  "sklearn": "0.20.3",
+  "trained_at": "20190411-145904",
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "rasa_core": "0.13.7"
 }

@@ -1,49 +1,51 @@
 {
-  "action_fingerprints": {
-    "action_listen": {
-      "slots": []
-    },
-    "utter_Initiative_d'excellence_de_l'universit\u00e9_de_Bordeaux": {
-      "slots": []
-    },
-    "utter_Collections_scientifiques": {
-      "slots": []
-    },
-    "utter_Habilitation_\u00e0_diriger_des_recherches": {
-      "slots": []
-    },
-    "utter_\u00c9tudes_doctorales": {
-      "slots": []
-    },
-    "utter_Institut_d\u2019\u00e9tudes_avanc\u00e9es": {
-      "slots": []
-    },
-    "utter_Panorama_de_la_recherche": {
-      "slots": []
-    },
-    "utter_Laboratoires_internationaux": {
-      "slots": []
-    },
-    "utter_Valorisation": {
-      "slots": []
-    },
-    "utter_Int\u00e9gration_des_chercheurs_internationaux": {
-      "slots": []
-    },
-    "utter_Programmes_europ\u00e9ens": {
-      "slots": []
-    },
-    "utter_Int\u00e9grit\u00e9_scientifique": {
-      "slots": []
-    }
-  },
-  "python": "3.6.1",
+  "tensorflow": "1.12.0",
+  "python": "3.5.3",
   "max_histories": [
     5,
     null,
     5,
     2
   ],
+  "trained_at": "20190411-145917",
+  "action_fingerprints": {
+    "utter_Programmes_europ\u00e9ens": {
+      "slots": []
+    },
+    "utter_Valorisation": {
+      "slots": []
+    },
+    "utter_Int\u00e9grit\u00e9_scientifique": {
+      "slots": []
+    },
+    "utter_Institut_d\u2019\u00e9tudes_avanc\u00e9es": {
+      "slots": []
+    },
+    "utter_Int\u00e9gration_des_chercheurs_internationaux": {
+      "slots": []
+    },
+    "utter_Collections_scientifiques": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": []
+    },
+    "utter_Initiative_d'excellence_de_l'universit\u00e9_de_Bordeaux": {
+      "slots": []
+    },
+    "utter_Laboratoires_internationaux": {
+      "slots": []
+    },
+    "utter_Habilitation_\u00e0_diriger_des_recherches": {
+      "slots": []
+    },
+    "utter_Panorama_de_la_recherche": {
+      "slots": []
+    },
+    "utter_\u00c9tudes_doctorales": {
+      "slots": []
+    }
+  },
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
@@ -51,8 +53,6 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190331-204918",
-  "rasa_core": "0.13.6",
-  "tensorflow": "1.12.0",
+  "rasa_core": "0.13.7",
   "sklearn": "0.20.3"
 }

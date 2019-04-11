@@ -5,12 +5,13 @@ with open('results/failed_stories.md') as f:
         #print ("This line : "+line)
         if line.startswith("    - utter_"):
             if not(line.startswith("    - utter_salutation")):
-                if(len(line)<48):
+                if(len(line)<55):
+                    print(line)
                     print("Passed")
                     Nb_success+=1
                 else:
-
                     print(line)
+                    print("Failed")
         else:
             if line.startswith("## end-to-end story"):
                 Nb_tests+=1
@@ -19,3 +20,7 @@ with open('results/failed_stories.md') as f:
 
 
 print("We have "+str(Nb_tests)+" tests and "+str(Nb_success)+" successes for a ratio of "+str(Nb_success/Nb_tests*100)+"%")
+print("Press Ctrl+C to leave terminal")
+x=0
+while 1:
+    x+=1

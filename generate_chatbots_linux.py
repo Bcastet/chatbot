@@ -34,7 +34,7 @@ for file in dir:
 		"# Lancement du bot\n"+
 		"python3 -m rasa_core.run -d models/dialogue -u models/current/nlu -p "+str(port))
 		chatbotsh.close()
-		os.system("gnome-terminal -e ./chatbot.sh")
+		os.system("gnome-terminal -e ./chatbot.sh --title="+file+"-port-"+str(port))
 
 		print("Launched "+str(file)+" on port "+str(port))
 		port+=1

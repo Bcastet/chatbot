@@ -1,52 +1,52 @@
 {
+  "rasa_core": "0.13.7",
   "action_fingerprints": {
-    "action_listen": {
-      "slots": []
-    },
-    "utter_Programmes_europ\u00e9ens": {
-      "slots": []
-    },
-    "utter_Bloc_Actualit\u00e9s_de_l'international": {
+    "utter_Contact": {
       "slots": []
     },
     "utter_Formations_internationales_": {
       "slots": []
     },
-    "utter_Laboratoires_internationaux": {
-      "slots": []
-    },
-    "utter_Contact": {
+    "utter_Partir_\u00e0_l'\u00e9tranger": {
       "slots": []
     },
     "utter_Partenaires": {
       "slots": []
     },
-    "utter_Partir_\u00e0_l'\u00e9tranger": {
+    "utter_Ambition_internationale": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": []
+    },
+    "utter_Bloc_Actualit\u00e9s_de_l'international": {
+      "slots": []
+    },
+    "utter_Laboratoires_internationaux": {
+      "slots": []
+    },
+    "utter_Programmes_europ\u00e9ens": {
       "slots": []
     },
     "utter_Venir_\u00e0_Bordeaux": {
       "slots": []
-    },
-    "utter_Ambition_internationale": {
-      "slots": []
     }
   },
-  "python": "3.6.1",
-  "max_histories": [
-    5,
-    null,
-    5,
-    2
-  ],
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190331-204909",
-  "rasa_core": "0.13.6",
-  "tensorflow": "1.12.0",
-  "sklearn": "0.20.3"
+  "python": "3.5.3",
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "sklearn": "0.20.3",
+  "trained_at": "20190411-145910",
+  "tensorflow": "1.12.0"
 }

@@ -1,46 +1,46 @@
 %YAML 1.1
 ---
 actions:
-- utter_Accueil_des_étudiants
-- utter_Social
-- utter_Vie_associative
-- utter_Citoyenneté_étudiante
-- utter_Culture
 - utter_Sport
-- utter_Les_bibliothèques
 - utter_Vie_pratique
-- utter_Emplois_étudiants
-- utter_Espace_santé_étudiants
-- utter_Boutique
+- utter_Citoyenneté_étudiante
+- utter_Social
 - utter_Services_numériques
+- utter_Vie_associative
+- utter_Boutique
+- utter_Accueil_des_étudiants
+- utter_Espace_santé_étudiants
+- utter_Emplois_étudiants
+- utter_Les_bibliothèques
+- utter_Culture
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- Accueil_des_étudiants:
-    use_entities: true
-- Social:
-    use_entities: true
-- Vie_associative:
-    use_entities: true
-- Citoyenneté_étudiante:
-    use_entities: true
 - Culture:
     use_entities: true
 - Sport:
+    use_entities: true
+- Accueil_des_étudiants:
     use_entities: true
 - Les_bibliothèques:
     use_entities: true
 - Vie_pratique:
     use_entities: true
+- Services_numériques:
+    use_entities: true
 - Emplois_étudiants:
     use_entities: true
-- Espace_santé_étudiants:
+- Vie_associative:
     use_entities: true
 - Boutique:
     use_entities: true
-- Services_numériques:
+- Citoyenneté_étudiante:
+    use_entities: true
+- Espace_santé_étudiants:
+    use_entities: true
+- Social:
     use_entities: true
 slots: {}
 templates:

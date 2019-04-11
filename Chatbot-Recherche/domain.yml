@@ -1,44 +1,53 @@
 ﻿intents:
+  - Programmes_européens
+  - Valorisation
+  - Institut_d’études_avancées
+  - Collections_scientifiques
   - Études_doctorales
   - Habilitation_à_diriger_des_recherches
-  - Valorisation
-  - Panorama_de_la_recherche
-  - Programmes_européens
+  - Initiative_d'excellence_de_l'université_de_Bordeaux
+  - Intégrité_scientifique
   - Laboratoires_internationaux
   - Intégration_des_chercheurs_internationaux
-  - Intégrité_scientifique
-  - Institut_d’études_avancées
-  - Initiative_d'excellence_de_l'université_de_Bordeaux
-  - Collections_scientifiques
+  - Panorama_de_la_recherche
 
 actions:
+- utter_Programmes_européens
+- utter_Valorisation
+- utter_Institut_d’études_avancées
+- utter_Collections_scientifiques
 - utter_Études_doctorales
 - utter_Habilitation_à_diriger_des_recherches
-- utter_Valorisation
-- utter_Panorama_de_la_recherche
-- utter_Programmes_européens
+- utter_Initiative_d'excellence_de_l'université_de_Bordeaux
+- utter_Intégrité_scientifique
 - utter_Laboratoires_internationaux
 - utter_Intégration_des_chercheurs_internationaux
-- utter_Intégrité_scientifique
-- utter_Institut_d’études_avancées
-- utter_Initiative_d'excellence_de_l'université_de_Bordeaux
-- utter_Collections_scientifiques
+- utter_Panorama_de_la_recherche
 
 templates:
+  utter_Programmes_européens:
+    - "Retrouvez les informations sur programmes européens à cette page : https://www.u-bordeaux.fr/Recherche/Programmes-europeens     "
+
+  utter_Valorisation:
+    - "Retrouvez les informations sur valorisation à cette page : https://www.u-bordeaux.fr/Recherche/Valorisation     "
+
+  utter_Institut_d’études_avancées:
+    - "Retrouvez les informations sur institut d’études avancées à cette page : https://www.u-bordeaux.fr/Recherche/Institut-d-etudes-avancees     "
+
+  utter_Collections_scientifiques:
+    - "Retrouvez les informations sur collections scientifiques à cette page : https://www.u-bordeaux.fr/Recherche/Collections-scientifiques     "
+
   utter_Études_doctorales:
     - "Retrouvez les informations sur études doctorales à cette page : https://www.u-bordeaux.fr/Recherche/Etudes-doctorales     "
 
   utter_Habilitation_à_diriger_des_recherches:
     - "Retrouvez les informations sur habilitation à diriger des recherches à cette page : https://www.u-bordeaux.fr/Recherche/Habilitation-a-diriger-des-recherches     "
 
-  utter_Valorisation:
-    - "Retrouvez les informations sur valorisation à cette page : https://www.u-bordeaux.fr/Recherche/Valorisation     "
+  utter_Initiative_d'excellence_de_l'université_de_Bordeaux:
+    - "Retrouvez les informations sur initiative d'excellence de l'université de bordeaux à cette page : https://www.u-bordeaux.fr/Recherche/Initiative-d-excellence-de-l-universite-de-Bordeaux     "
 
-  utter_Panorama_de_la_recherche:
-    - "Retrouvez les informations sur panorama de la recherche à cette page : https://www.u-bordeaux.fr/Recherche/Panorama-de-la-recherche     "
-
-  utter_Programmes_européens:
-    - "Retrouvez les informations sur programmes européens à cette page : https://www.u-bordeaux.fr/Recherche/Programmes-europeens     "
+  utter_Intégrité_scientifique:
+    - "Retrouvez les informations sur intégrité scientifique à cette page : https://www.u-bordeaux.fr/Recherche/Integrite-scientifique     "
 
   utter_Laboratoires_internationaux:
     - "Retrouvez les informations sur laboratoires internationaux à cette page : https://www.u-bordeaux.fr/Recherche/Laboratoires-internationaux     "
@@ -46,15 +55,6 @@ templates:
   utter_Intégration_des_chercheurs_internationaux:
     - "Retrouvez les informations sur intégration des chercheurs internationaux à cette page : https://www.u-bordeaux.fr/Recherche/Integration-des-chercheurs-internationaux     "
 
-  utter_Intégrité_scientifique:
-    - "Retrouvez les informations sur intégrité scientifique à cette page : https://www.u-bordeaux.fr/Recherche/Integrite-scientifique     "
-
-  utter_Institut_d’études_avancées:
-    - "Retrouvez les informations sur institut d’études avancées à cette page : https://www.u-bordeaux.fr/Recherche/Institut-d-etudes-avancees     "
-
-  utter_Initiative_d'excellence_de_l'université_de_Bordeaux:
-    - "Retrouvez les informations sur initiative d'excellence de l'université de bordeaux à cette page : https://www.u-bordeaux.fr/Recherche/Initiative-d-excellence-de-l-universite-de-Bordeaux     "
-
-  utter_Collections_scientifiques:
-    - "Retrouvez les informations sur collections scientifiques à cette page : https://www.u-bordeaux.fr/Recherche/Collections-scientifiques     "
+  utter_Panorama_de_la_recherche:
+    - "Retrouvez les informations sur panorama de la recherche à cette page : https://www.u-bordeaux.fr/Recherche/Panorama-de-la-recherche     "
 

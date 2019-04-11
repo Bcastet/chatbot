@@ -2,6 +2,70 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "Programmes_européens",
+        "text": "Je cherche des informations à propos de programmes européens"
+      },
+      {
+        "intent": "Programmes_européens",
+        "text": "Comment est/sont géré.e.s le/les programmes européens?"
+      },
+      {
+        "intent": "Programmes_européens",
+        "text": "Où puis-je trouver les informations concernant programmes européens?"
+      },
+      {
+        "intent": "Programmes_européens",
+        "text": "Je cherche le portail programmes européens"
+      },
+      {
+        "intent": "Valorisation",
+        "text": "Je cherche des informations à propos de valorisation"
+      },
+      {
+        "intent": "Valorisation",
+        "text": "Comment est/sont géré.e.s le/les valorisation?"
+      },
+      {
+        "intent": "Valorisation",
+        "text": "Où puis-je trouver les informations concernant valorisation?"
+      },
+      {
+        "intent": "Valorisation",
+        "text": "Je cherche le portail valorisation"
+      },
+      {
+        "intent": "Institut_d’études_avancées",
+        "text": "Je cherche des informations à propos de institut d’études avancées"
+      },
+      {
+        "intent": "Institut_d’études_avancées",
+        "text": "Comment est/sont géré.e.s le/les institut d’études avancées?"
+      },
+      {
+        "intent": "Institut_d’études_avancées",
+        "text": "Où puis-je trouver les informations concernant institut d’études avancées?"
+      },
+      {
+        "intent": "Institut_d’études_avancées",
+        "text": "Je cherche le portail institut d’études avancées"
+      },
+      {
+        "intent": "Collections_scientifiques",
+        "text": "Je cherche des informations à propos de collections scientifiques"
+      },
+      {
+        "intent": "Collections_scientifiques",
+        "text": "Comment est/sont géré.e.s le/les collections scientifiques?"
+      },
+      {
+        "intent": "Collections_scientifiques",
+        "text": "Où puis-je trouver les informations concernant collections scientifiques?"
+      },
+      {
+        "intent": "Collections_scientifiques",
+        "text": "Je cherche le portail collections scientifiques"
+      },
+      {
         "intent": "Études_doctorales",
         "text": "Doctorat à l'université de Bordeaux"
       },
@@ -38,52 +102,36 @@
         "text": "Je cherche le portail habilitation à diriger des recherches"
       },
       {
-        "intent": "Valorisation",
-        "text": "Je cherche des informations à propos de valorisation"
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Je cherche des informations à propos de initiative d'excellence de l'université de bordeaux"
       },
       {
-        "intent": "Valorisation",
-        "text": "Comment est/sont géré.e.s le/les valorisation?"
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Comment est/sont géré.e.s le/les initiative d'excellence de l'université de bordeaux?"
       },
       {
-        "intent": "Valorisation",
-        "text": "Où puis-je trouver les informations concernant valorisation?"
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Où puis-je trouver les informations concernant initiative d'excellence de l'université de bordeaux?"
       },
       {
-        "intent": "Valorisation",
-        "text": "Je cherche le portail valorisation"
+        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
+        "text": "Je cherche le portail initiative d'excellence de l'université de bordeaux"
       },
       {
-        "intent": "Panorama_de_la_recherche",
-        "text": "Je cherche des informations à propos de panorama de la recherche"
+        "intent": "Intégrité_scientifique",
+        "text": "Je cherche des informations à propos de intégrité scientifique"
       },
       {
-        "intent": "Panorama_de_la_recherche",
-        "text": "Comment est/sont géré.e.s le/les panorama de la recherche?"
+        "intent": "Intégrité_scientifique",
+        "text": "Comment est/sont géré.e.s le/les intégrité scientifique?"
       },
       {
-        "intent": "Panorama_de_la_recherche",
-        "text": "Où puis-je trouver les informations concernant panorama de la recherche?"
+        "intent": "Intégrité_scientifique",
+        "text": "Où puis-je trouver les informations concernant intégrité scientifique?"
       },
       {
-        "intent": "Panorama_de_la_recherche",
-        "text": "Je cherche le portail panorama de la recherche"
-      },
-      {
-        "intent": "Programmes_européens",
-        "text": "Je cherche des informations à propos de programmes européens"
-      },
-      {
-        "intent": "Programmes_européens",
-        "text": "Comment est/sont géré.e.s le/les programmes européens?"
-      },
-      {
-        "intent": "Programmes_européens",
-        "text": "Où puis-je trouver les informations concernant programmes européens?"
-      },
-      {
-        "intent": "Programmes_européens",
-        "text": "Je cherche le portail programmes européens"
+        "intent": "Intégrité_scientifique",
+        "text": "Je cherche le portail intégrité scientifique"
       },
       {
         "intent": "Laboratoires_internationaux",
@@ -118,72 +166,24 @@
         "text": "Je cherche le portail intégration des chercheurs internationaux"
       },
       {
-        "intent": "Intégrité_scientifique",
-        "text": "Je cherche des informations à propos de intégrité scientifique"
+        "intent": "Panorama_de_la_recherche",
+        "text": "Je cherche des informations à propos de panorama de la recherche"
       },
       {
-        "intent": "Intégrité_scientifique",
-        "text": "Comment est/sont géré.e.s le/les intégrité scientifique?"
+        "intent": "Panorama_de_la_recherche",
+        "text": "Comment est/sont géré.e.s le/les panorama de la recherche?"
       },
       {
-        "intent": "Intégrité_scientifique",
-        "text": "Où puis-je trouver les informations concernant intégrité scientifique?"
+        "intent": "Panorama_de_la_recherche",
+        "text": "Où puis-je trouver les informations concernant panorama de la recherche?"
       },
       {
-        "intent": "Intégrité_scientifique",
-        "text": "Je cherche le portail intégrité scientifique"
-      },
-      {
-        "intent": "Institut_d’études_avancées",
-        "text": "Je cherche des informations à propos de institut d’études avancées"
-      },
-      {
-        "intent": "Institut_d’études_avancées",
-        "text": "Comment est/sont géré.e.s le/les institut d’études avancées?"
-      },
-      {
-        "intent": "Institut_d’études_avancées",
-        "text": "Où puis-je trouver les informations concernant institut d’études avancées?"
-      },
-      {
-        "intent": "Institut_d’études_avancées",
-        "text": "Je cherche le portail institut d’études avancées"
-      },
-      {
-        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
-        "text": "Je cherche des informations à propos de initiative d'excellence de l'université de bordeaux"
-      },
-      {
-        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
-        "text": "Comment est/sont géré.e.s le/les initiative d'excellence de l'université de bordeaux?"
-      },
-      {
-        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
-        "text": "Où puis-je trouver les informations concernant initiative d'excellence de l'université de bordeaux?"
-      },
-      {
-        "intent": "Initiative_d'excellence_de_l'université_de_Bordeaux",
-        "text": "Je cherche le portail initiative d'excellence de l'université de bordeaux"
-      },
-      {
-        "intent": "Collections_scientifiques",
-        "text": "Je cherche des informations à propos de collections scientifiques"
-      },
-      {
-        "intent": "Collections_scientifiques",
-        "text": "Comment est/sont géré.e.s le/les collections scientifiques?"
-      },
-      {
-        "intent": "Collections_scientifiques",
-        "text": "Où puis-je trouver les informations concernant collections scientifiques?"
-      },
-      {
-        "intent": "Collections_scientifiques",
-        "text": "Je cherche le portail collections scientifiques"
+        "intent": "Panorama_de_la_recherche",
+        "text": "Je cherche le portail panorama de la recherche"
       }
     ],
-    "regex_features": [],
+    "entity_synonyms": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "regex_features": []
   }
 }

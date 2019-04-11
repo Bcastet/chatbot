@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\benja_000\\Desktop\\Chatbot\\chatbot\\Chatbot-Campus\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "C:\\Users\\benja_000\\Desktop\\Chatbot\\chatbot\\Chatbot-Campus\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "/autofs/unityaccount/cremi/bcastet/chatbot/Chatbot-Campus/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/autofs/unityaccount/cremi/bcastet/chatbot/Chatbot-Campus/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

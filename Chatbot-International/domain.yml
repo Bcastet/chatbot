@@ -1,40 +1,34 @@
 ﻿intents:
+  - Partir_à_l'étranger
   - Ambition_internationale
-  - Partenaires
   - Programmes_européens
-  - Laboratoires_internationaux
-  - Formations_internationales_
   - Contact
   - Bloc_Actualités_de_l'international
   - Venir_à_Bordeaux
-  - Partir_à_l'étranger
+  - Formations_internationales_
+  - Partenaires
+  - Laboratoires_internationaux
 
 actions:
+- utter_Partir_à_l'étranger
 - utter_Ambition_internationale
-- utter_Partenaires
 - utter_Programmes_européens
-- utter_Laboratoires_internationaux
-- utter_Formations_internationales_
 - utter_Contact
 - utter_Bloc_Actualités_de_l'international
 - utter_Venir_à_Bordeaux
-- utter_Partir_à_l'étranger
+- utter_Formations_internationales_
+- utter_Partenaires
+- utter_Laboratoires_internationaux
 
 templates:
+  utter_Partir_à_l'étranger:
+    - "Retrouvez les informations sur partir à l'étranger à cette page : https://www.u-bordeaux.fr/International/Partir-a-l-etranger     "
+
   utter_Ambition_internationale:
     - "Retrouvez les informations sur ambition internationale à cette page : https://www.u-bordeaux.fr/International/Ambition-internationale     "
 
-  utter_Partenaires:
-    - "Retrouvez les informations sur partenaires à cette page : https://www.u-bordeaux.fr/International/Partenaires     "
-
   utter_Programmes_européens:
     - "Retrouvez les informations sur programmes européens à cette page : https://www.u-bordeaux.fr/International/Programmes-europeens     "
-
-  utter_Laboratoires_internationaux:
-    - "Retrouvez les informations sur laboratoires internationaux à cette page : https://www.u-bordeaux.fr/International/Laboratoires-internationaux     "
-
-  utter_Formations_internationales_:
-    - "Retrouvez les informations sur formations internationales  à cette page : https://www.u-bordeaux.fr/International/Formations-internationales     "
 
   utter_Contact:
     - "Retrouvez les informations sur contact à cette page : https://www.u-bordeaux.fr/International/Contact     "
@@ -45,6 +39,12 @@ templates:
   utter_Venir_à_Bordeaux:
     - "Retrouvez les informations sur venir à bordeaux à cette page : https://www.u-bordeaux.fr/International/Venir-a-Bordeaux     "
 
-  utter_Partir_à_l'étranger:
-    - "Retrouvez les informations sur partir à l'étranger à cette page : https://www.u-bordeaux.fr/International/Partir-a-l-etranger     "
+  utter_Formations_internationales_:
+    - "Retrouvez les informations sur formations internationales  à cette page : https://www.u-bordeaux.fr/International/Formations-internationales     "
+
+  utter_Partenaires:
+    - "Retrouvez les informations sur partenaires à cette page : https://www.u-bordeaux.fr/International/Partenaires     "
+
+  utter_Laboratoires_internationaux:
+    - "Retrouvez les informations sur laboratoires internationaux à cette page : https://www.u-bordeaux.fr/International/Laboratoires-internationaux     "
 

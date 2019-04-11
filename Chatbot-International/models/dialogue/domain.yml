@@ -1,37 +1,37 @@
 %YAML 1.1
 ---
 actions:
+- utter_Partir_à_l'étranger
 - utter_Ambition_internationale
-- utter_Partenaires
 - utter_Programmes_européens
-- utter_Laboratoires_internationaux
-- utter_Formations_internationales_
 - utter_Contact
 - utter_Bloc_Actualités_de_l'international
 - utter_Venir_à_Bordeaux
-- utter_Partir_à_l'étranger
+- utter_Formations_internationales_
+- utter_Partenaires
+- utter_Laboratoires_internationaux
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- Ambition_internationale:
-    use_entities: true
-- Partenaires:
-    use_entities: true
-- Programmes_européens:
+- Partir_à_l'étranger:
     use_entities: true
 - Laboratoires_internationaux:
     use_entities: true
-- Formations_internationales_:
+- Programmes_européens:
     use_entities: true
 - Contact:
+    use_entities: true
+- Partenaires:
     use_entities: true
 - Bloc_Actualités_de_l'international:
     use_entities: true
 - Venir_à_Bordeaux:
     use_entities: true
-- Partir_à_l'étranger:
+- Ambition_internationale:
+    use_entities: true
+- Formations_internationales_:
     use_entities: true
 slots: {}
 templates:

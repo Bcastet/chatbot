@@ -1,34 +1,34 @@
 %YAML 1.1
 ---
 actions:
-- utter_De_la_formation
-- utter_De_l'université
-- utter_De_la_recherche
-- utter_Des_bibliothèques
-- utter_Des_études
 - utter_De_la_vie_de_campus
-- utter_Du_Magazine_U
+- utter_Des_études
+- utter_De_l'université
 - utter_De_l'international
+- utter_De_la_recherche
+- utter_Du_Magazine_U
+- utter_De_la_formation
+- utter_Des_bibliothèques
 config:
   store_entities_as_slots: true
 entities: []
 forms: []
 intents:
-- De_la_formation:
-    use_entities: true
-- De_l'université:
-    use_entities: true
-- De_la_recherche:
-    use_entities: true
-- Des_bibliothèques:
+- Du_Magazine_U:
     use_entities: true
 - Des_études:
     use_entities: true
 - De_la_vie_de_campus:
     use_entities: true
-- Du_Magazine_U:
+- De_la_recherche:
+    use_entities: true
+- De_l'université:
+    use_entities: true
+- Des_bibliothèques:
     use_entities: true
 - De_l'international:
+    use_entities: true
+- De_la_formation:
     use_entities: true
 slots: {}
 templates:

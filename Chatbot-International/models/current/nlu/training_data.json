@@ -1,17 +1,20 @@
 {
   "rasa_nlu_data": {
+    "lookup_tables": [],
+    "entity_synonyms": [],
+    "regex_features": [],
     "common_examples": [
+      {
+        "intent": "Partir_à_l'étranger",
+        "text": "Comment partir à l'étranger?"
+      },
+      {
+        "intent": "Partir_à_l'étranger",
+        "text": "Quelles sont les démarches à faire pour partir à l'étranger?"
+      },
       {
         "intent": "Ambition_internationale",
         "text": "Quelle est l'ambition internationale de l'Université de Bordeaux?"
-      },
-      {
-        "intent": "Partenaires",
-        "text": "Quels sont les partenaires pour partir à l'étranger?"
-      },
-      {
-        "intent": "Partenaires",
-        "text": "Quels sont les partenaires pour faire une formation à l'international?"
       },
       {
         "intent": "Programmes_européens",
@@ -24,30 +27,6 @@
       {
         "intent": "Programmes_européens",
         "text": "Quels sont les programmes européens dans lesquels je peux m'engager?"
-      },
-      {
-        "intent": "Laboratoires_internationaux",
-        "text": "Quels sont les laboratoires internationaux liés à l'Université de Bordeaux?"
-      },
-      {
-        "intent": "Laboratoires_internationaux",
-        "text": "Quels sont les laboratoires internationaux?"
-      },
-      {
-        "intent": "Laboratoires_internationaux",
-        "text": "Quels sont les laboratoires internationaux dans lesquels je peux m'engager?"
-      },
-      {
-        "intent": "Formations_internationales_",
-        "text": "Quels sont les formations internationales  liés à l'Université de Bordeaux?"
-      },
-      {
-        "intent": "Formations_internationales_",
-        "text": "Quels sont les formations internationales ?"
-      },
-      {
-        "intent": "Formations_internationales_",
-        "text": "Quels sont les formations internationales  dans lesquels je peux m'engager?"
       },
       {
         "intent": "Contact",
@@ -70,16 +49,37 @@
         "text": "Quelles sont les démarches à faire pour venir à bordeaux?"
       },
       {
-        "intent": "Partir_à_l'étranger",
-        "text": "Comment partir à l'étranger?"
+        "intent": "Formations_internationales_",
+        "text": "Quels sont les formations internationales  liés à l'Université de Bordeaux?"
       },
       {
-        "intent": "Partir_à_l'étranger",
-        "text": "Quelles sont les démarches à faire pour partir à l'étranger?"
+        "intent": "Formations_internationales_",
+        "text": "Quels sont les formations internationales ?"
+      },
+      {
+        "intent": "Formations_internationales_",
+        "text": "Quels sont les formations internationales  dans lesquels je peux m'engager?"
+      },
+      {
+        "intent": "Partenaires",
+        "text": "Quels sont les partenaires pour partir à l'étranger?"
+      },
+      {
+        "intent": "Partenaires",
+        "text": "Quels sont les partenaires pour faire une formation à l'international?"
+      },
+      {
+        "intent": "Laboratoires_internationaux",
+        "text": "Quels sont les laboratoires internationaux liés à l'Université de Bordeaux?"
+      },
+      {
+        "intent": "Laboratoires_internationaux",
+        "text": "Quels sont les laboratoires internationaux?"
+      },
+      {
+        "intent": "Laboratoires_internationaux",
+        "text": "Quels sont les laboratoires internationaux dans lesquels je peux m'engager?"
       }
-    ],
-    "regex_features": [],
-    "lookup_tables": [],
-    "entity_synonyms": []
+    ]
   }
 }
